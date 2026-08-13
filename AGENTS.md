@@ -1,4 +1,4 @@
-# CLAUDE.md
+# AGENTS.md
 
 ## 명령어
 
@@ -23,6 +23,12 @@
 
 | 경로 | 무엇의 기준인가 |
 |---|---|
+| `AGENTS.md` | 이 문서. 에이전트 지침의 정본이다. Claude Code와 Codex가 같은 내용을 본다 |
+| `CLAUDE.md` | `@AGENTS.md` 한 줄짜리 import. 내용을 여기에 적지 않는다 |
+| `.agents/skills/` | 두 도구가 함께 쓰는 스킬 원본 |
+| `.claude/skills/` | `.agents/skills`를 가리키는 정션. 안에 파일을 직접 만들지 않는다 |
+| `.claude/settings.json` · `.claude/settings.local.json` | Claude Code 전용 설정. Codex는 읽지 않는다 |
+| `.claude/hooks/guard-backlog.mjs` | 파일 도구가 `backlog.json`에 손대는 것을 막는 훅 |
 | `BRIEF.md` | 전체 구상의 기준. 언젠가 만들 것 전부가 여기 있다 |
 | `PLAN.md` | 6~8시간 실행 계약의 기준. `BRIEF.md`만 근거로 쓴다 |
 | `SPEC.md` | 이번에 만들 것의 기준. 건수·비율·날짜 같은 숫자는 이 문서가 정본이다 |
