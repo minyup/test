@@ -209,7 +209,7 @@
     },
     {
       "id": "LB-115",
-      "status": "todo",
+      "status": "done",
       "priority": "핵심",
       "category": "저장",
       "title": "지표 집계 countTotal·negativeRatio 구현",
