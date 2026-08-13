@@ -419,7 +419,7 @@
     },
     {
       "id": "LB-130",
-      "status": "todo",
+      "status": "done",
       "priority": "검증",
       "category": "검증",
       "title": "Phase 2 지표 기대값 테스트",
