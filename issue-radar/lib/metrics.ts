@@ -1,7 +1,8 @@
 // 확장자를 붙여 적는다. 타입이 아닌 값을 가져오는 import는 확장자가 없으면
 // `node lib/...ts`로 바로 돌려 볼 때 해석되지 않는다.
 import { dateOf } from './filter.ts';
-import type { FeedbackRecord } from './types';
+import { ISSUE_CATEGORIES } from './types.ts';
+import type { FeedbackRecord, IssueCategory } from './types';
 
 /**
  * 지표 집계. 입력은 이미 필터가 걸린 레코드 배열이다 —
@@ -64,4 +65,31 @@ export function trendBySentiment(
   }
 
   return [...points.values()];
+}
+
+/** 분포 차트의 한 조각 */
+export interface CategoryCount {
+  category: IssueCategory;
+  count: number;
+}
+
+/**
+ * 이슈 카테고리별 분포(SPEC 5.4).
+ *
+ * 어떤 필터에서도 길이가 항상 7이다. 필터 때문에 건수가 0이 된 카테고리도
+ * 원소로 남긴다 — 빼 버리면 조각 수가 필터에 따라 흔들려, 사라진 카테고리가
+ * 원래 없는 것인지 이번 조건에서 0인 것인지 화면에서 구분할 수 없다.
+ *
+ * 순서는 `ISSUE_CATEGORIES` 선언 순서를 그대로 따른다. 건수 순으로 정렬하면
+ * 필터를 바꿀 때마다 조각과 범례의 색 순서가 뒤바뀌어 읽기 어려워진다.
+ */
+export function distributionByCategory(records: FeedbackRecord[]): CategoryCount[] {
+  const counts = new Map<IssueCategory, number>(ISSUE_CATEGORIES.map((category) => [category, 0]));
+
+  for (const record of records) {
+    const category = record.analysis.issue_category;
+    counts.set(category, (counts.get(category) ?? 0) + 1);
+  }
+
+  return ISSUE_CATEGORIES.map((category) => ({ category, count: counts.get(category) ?? 0 }));
 }

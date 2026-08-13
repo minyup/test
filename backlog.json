@@ -237,7 +237,7 @@
     },
     {
       "id": "LB-117",
-      "status": "todo",
+      "status": "done",
       "priority": "핵심",
       "category": "저장",
       "title": "분포 집계 distributionByCategory 구현",
