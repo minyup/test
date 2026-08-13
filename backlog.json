@@ -475,7 +475,7 @@
     },
     {
       "id": "LB-134",
-      "status": "todo",
+      "status": "done",
       "priority": "검증",
       "category": "검증",
       "title": "금지 규칙 스캔",
