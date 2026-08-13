@@ -363,7 +363,7 @@
     },
     {
       "id": "LB-126",
-      "status": "todo",
+      "status": "done",
       "priority": "검증",
       "category": "검증",
       "title": "데이터 스키마 검증기",

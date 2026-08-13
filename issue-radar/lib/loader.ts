@@ -2,6 +2,12 @@ import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
 
 import type { FeedbackAnalysis, FeedbackItem, FeedbackRecord, Product } from './types';
+import {
+  validateAnalyses,
+  validateItems,
+  validatePairing,
+  validateProducts,
+} from './validate';
 
 /**
  * 저장소를 바꿀 때 갈아끼우는 유일한 파일이다(SPEC 1.1).
@@ -89,11 +95,11 @@ export function clearLoaderCache(): void {
 export function loadProducts(): Product[] {
   if (productCache) return productCache;
 
-  const rows = readJsonArray(PRODUCTS_FILE) as Product[];
-  validateOrThrow(PRODUCTS_FILE, rows.length > 0 ? [] : ['제품이 한 건도 없습니다']);
+  const rows = readJsonArray(PRODUCTS_FILE);
+  validateOrThrow(PRODUCTS_FILE, validateProducts(PRODUCTS_FILE, rows));
 
-  productCache = rows;
-  return rows;
+  productCache = rows as Product[];
+  return productCache;
 }
 
 /**
@@ -103,43 +109,32 @@ export function loadProducts(): Product[] {
 export function loadFeedback(): FeedbackRecord[] {
   if (feedbackCache) return feedbackCache;
 
-  const items = readJsonArray(ITEMS_FILE) as FeedbackItem[];
-  const analyses = readJsonArray(ANALYSES_FILE) as FeedbackAnalysis[];
+  const itemRows = readJsonArray(ITEMS_FILE);
+  const analysisRows = readJsonArray(ANALYSES_FILE);
 
-  const analysisByItemId = new Map<string, FeedbackAnalysis>();
-  const duplicates: string[] = [];
-  for (const analysis of analyses) {
-    if (analysisByItemId.has(analysis.feedback_item_id)) {
-      duplicates.push(`${analysis.feedback_item_id}에 분석이 둘 이상 붙어 있습니다 (${analysis.id})`);
-    }
-    analysisByItemId.set(analysis.feedback_item_id, analysis);
-  }
+  // 파일별로 따로 본다. 두 파일의 문제를 한 덩어리로 던지면 어느 파일을 열어야
+  // 하는지가 메시지에서 사라진다
+  validateOrThrow(ITEMS_FILE, validateItems(ITEMS_FILE, itemRows));
+  validateOrThrow(ANALYSES_FILE, validateAnalyses(ANALYSES_FILE, analysisRows));
 
-  const problems = [...duplicates];
-  const records: FeedbackRecord[] = [];
-  for (const item of items) {
-    const analysis = analysisByItemId.get(item.id);
-    if (!analysis) {
-      problems.push(`${item.id}에 붙은 분석이 없습니다`);
-      continue;
-    }
-    analysisByItemId.delete(item.id);
-    records.push({ ...item, analysis });
-  }
-  for (const orphan of analysisByItemId.values()) {
-    problems.push(`${orphan.id}가 없는 원문 ${orphan.feedback_item_id}을(를) 가리킵니다`);
-  }
+  const items = itemRows as FeedbackItem[];
+  const analyses = analysisRows as FeedbackAnalysis[];
 
-  validateOrThrow(ANALYSES_FILE, problems);
+  // 1:1이 깨진 채로 이어 붙이면 화면 건수가 조용히 300건이 아니게 된다
+  validateOrThrow(ANALYSES_FILE, validatePairing(items, analyses));
+
+  const analysisByItemId = new Map(analyses.map((analysis) => [analysis.feedback_item_id, analysis]));
+  const records = items.map((item) => ({
+    ...item,
+    // 위 검증을 통과했으므로 짝이 반드시 있다
+    analysis: analysisByItemId.get(item.id) as FeedbackAnalysis,
+  }));
 
   feedbackCache = records;
   return records;
 }
 
-/**
- * 스키마 검증 자리. 지금은 1:1 대응만 보고, 필수 필드와 열거형 검사는
- * LB-126에서 `lib/validate.ts`를 붙이며 여기로 들어온다.
- */
+/** 검증에서 나온 문제 목록을 화면이 읽을 수 있는 오류로 바꾼다(SPEC 5.7) */
 function validateOrThrow(file: string, problems: string[]): void {
   if (problems.length === 0) return;
   throw new DataError(
