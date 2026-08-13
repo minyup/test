@@ -1,9 +1,16 @@
+import { loadFeedback, loadProducts } from '@/lib/loader';
+
 import { ChartSmokeTest } from './components/chart-smoke-test';
 
 // 대시보드는 이 화면 하나뿐이다. 별도 라우트를 만들지 않는다(SPEC 5장).
 // 다섯 영역을 위에서 아래 순서로 둔다: 필터 바 · 지표 카드 · 추세 그래프 · 분포 차트 · 원문 목록.
 // 지금은 자리만 잡은 뼈대이고, 내용은 LB-118~123에서 하나씩 채운다.
 export default function DashboardPage() {
+  // LB-113 임시 확인용. LB-122에서 진짜 원문 목록이 붙으면 지운다
+  const products = loadProducts();
+  const feedback = loadFeedback();
+  const sample = feedback[0];
+
   return (
     <main className="dashboard">
       <header>
@@ -64,7 +71,22 @@ export default function DashboardPage() {
         <h2 className="panel-heading" id="feedback-list-heading">
           원문 목록
         </h2>
-        <div className="placeholder">최신순 20건 · 더 보기 (LB-122·123)</div>
+        {/* LB-113 임시 확인용. LB-122에서 진짜 목록으로 바뀐다 */}
+        <dl className="loader-probe">
+          <dt>제품</dt>
+          <dd>{products.length}건</dd>
+          <dt>원문</dt>
+          <dd>{feedback.length}건</dd>
+          <dt>표본 한 건</dt>
+          <dd>
+            {sample.id} · {sample.title}
+          </dd>
+          <dt>표본에 붙은 분석</dt>
+          <dd>
+            {sample.analysis.id} · {sample.analysis.product_id} · {sample.analysis.issue_category} ·{' '}
+            {sample.analysis.sentiment} · {sample.analysis.summary}
+          </dd>
+        </dl>
       </section>
     </main>
   );

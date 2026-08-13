@@ -181,7 +181,7 @@
     },
     {
       "id": "LB-113",
-      "status": "todo",
+      "status": "done",
       "priority": "핵심",
       "category": "저장",
       "title": "로더 loadProducts·loadFeedback 구현",
