@@ -265,7 +265,7 @@
     },
     {
       "id": "LB-119",
-      "status": "todo",
+      "status": "done",
       "priority": "핵심",
       "category": "화면",
       "title": "지표 카드 2개 붙이기",

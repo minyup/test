@@ -1,13 +1,23 @@
 'use client';
 
-import { useState } from 'react';
+import { useMemo, useState } from 'react';
 
-import { PERIOD_LABEL } from '@/lib/filter';
+import { PERIOD_LABEL, applyFilter } from '@/lib/filter';
+import { countTotal, negativeRatio } from '@/lib/metrics';
 import type { FeedbackRecord, FilterState, Period, Product } from '@/lib/types';
 
 import { ChartSmokeTest } from './chart-smoke-test';
 
 const PERIODS: Period[] = ['today', '7d', '30d'];
+
+/**
+ * 부정 반응 비율을 화면 글자로 바꾼다.
+ * 0건이면 `null`이 오고, 그때는 `0.0%`가 아니라 `—`를 쓴다(SPEC 6.3).
+ * 0%로 쓰면 "부정이 하나도 없다"는 거짓말이 되기 때문이다.
+ */
+function formatRatio(ratio: number | null): string {
+  return ratio === null ? '—' : `${ratio.toFixed(1)}%`;
+}
 
 /**
  * 대시보드 전체가 이 컴포넌트 하나의 필터 상태를 본다(SPEC 5.1).
@@ -26,6 +36,9 @@ export function Dashboard({
 
   // is_active가 false인 제품은 목록에 아예 나오지 않는다(SPEC 5.1)
   const activeProducts = products.filter((product) => product.is_active);
+
+  // 다섯 영역이 전부 이 결과 하나를 본다. 영역마다 다시 거르지 않는다
+  const filtered = useMemo(() => applyFilter(records, filter), [records, filter]);
 
   return (
     <>
@@ -80,7 +93,7 @@ export function Dashboard({
           <div>
             {/* "신규 수집 건수"가 아니다 — 1단계에는 수집이 없다(SPEC 5.2) */}
             <p className="metric-card-label">언급 건수</p>
-            <div className="metric-card-value">—</div>
+            <div className="metric-card-value">{countTotal(filtered).toLocaleString('ko-KR')}</div>
           </div>
           {/* Phase 5 급증 배지가 들어올 자리. 이번 범위에서는 렌더하지 않는다 */}
           <div className="surge-badge-slot" aria-hidden="true" />
@@ -89,7 +102,7 @@ export function Dashboard({
         <article className="panel metric-card">
           <div>
             <p className="metric-card-label">부정 반응 비율</p>
-            <div className="metric-card-value">—</div>
+            <div className="metric-card-value">{formatRatio(negativeRatio(filtered))}</div>
           </div>
           <div className="surge-badge-slot" aria-hidden="true" />
         </article>
