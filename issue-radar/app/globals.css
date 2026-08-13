@@ -1,0 +1,130 @@
+:root {
+  --bg: #f5f6f8;
+  --panel: #ffffff;
+  --border: #dfe3e8;
+  --text: #1f2933;
+  --muted: #6b7684;
+  --accent: #3d5a80;
+
+  /* 감성 3색. 추세 그래프와 원문 목록이 같은 색을 쓴다 */
+  --negative: #d1495b;
+  --neutral: #8d99ae;
+  --positive: #2a9d8f;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Malgun Gothic', 'Apple SD Gothic Neo', system-ui, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.dashboard {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 24px 20px 64px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.dashboard-title {
+  margin: 0;
+  font-size: 22px;
+}
+
+.dashboard-subtitle {
+  margin: 4px 0 0;
+  color: var(--muted);
+}
+
+/* 다섯 영역 공통 상자 */
+.panel {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 16px;
+}
+
+.panel-heading {
+  margin: 0 0 12px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--muted);
+  letter-spacing: 0.02em;
+}
+
+/* 뼈대 단계에서만 쓰는 빈 자리 표시. 내용이 붙으면 지운다 */
+.placeholder {
+  min-height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px dashed var(--border);
+  border-radius: 8px;
+  color: var(--muted);
+}
+
+/* 1. 필터 바 */
+.filter-bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+/* 2. 지표 카드 */
+.metric-cards {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.metric-card {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.metric-card-label {
+  margin: 0 0 6px;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.metric-card-value {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+/*
+ * Phase 5 급증 배지 자리. 이번 범위에서는 비워 두되 폭을 지금 잡아 둔다 —
+ * 나중에 +275.0% 같은 값이 들어올 때 레이아웃을 다시 짜지 않기 위해서다(SPEC 5.2).
+ */
+.surge-badge-slot {
+  min-width: 76px;
+  min-height: 24px;
+  flex: 0 0 auto;
+}
+
+/*
+ * 3~4. 차트 두 개는 나란히 두지 않고 위아래로 쌓는다 — SPEC 5장이 다섯 영역을
+ * "위에서 아래로"라고 정했고, LB-104의 완료 조건도 그 순서를 본다.
+ */
+.chart-body {
+  min-height: 280px;
+}
+
+@media (max-width: 900px) {
+  .metric-cards {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
