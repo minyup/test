@@ -97,7 +97,7 @@
     },
     {
       "id": "LB-107",
-      "status": "todo",
+      "status": "done",
       "priority": "핵심",
       "category": "저장",
       "title": "샘플 생성기 - 구간·제품·감성 배분표 코드화",
