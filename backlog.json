@@ -195,7 +195,7 @@
     },
     {
       "id": "LB-114",
-      "status": "todo",
+      "status": "done",
       "priority": "핵심",
       "category": "저장",
       "title": "기간·제품 필터 함수 구현",
