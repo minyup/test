@@ -125,7 +125,7 @@
     },
     {
       "id": "LB-109",
-      "status": "todo",
+      "status": "done",
       "priority": "핵심",
       "category": "저장",
       "title": "샘플 생성기 - 카테고리·세부이슈 배분",
