@@ -1,0 +1,17 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Read|Edit|Write|MultiEdit|NotebookEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PROJECT_DIR:-.}/.claude/hooks/guard-backlog.mjs\"",
+            "timeout": 10,
+            "statusMessage": "백로그 접근 확인 중"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -5,7 +5,7 @@ import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const scriptDirectory = dirname(fileURLToPath(import.meta.url));
-const backlogPath = resolve(scriptDirectory, '..', 'backlog_sol.json');
+const backlogPath = resolve(scriptDirectory, '..', 'backlog.json');
 
 const topLevelFields = ['$schema_version', 'meta', 'enums', 'tasks'];
 const metaFields = ['updated', 'context_doc', 'note'];
@@ -36,14 +36,35 @@ async function loadBacklog() {
   try {
     source = await readFile(backlogPath, 'utf8');
   } catch (error) {
-    throw new Error(`backlog_sol.json을 읽을 수 없습니다: ${error.message}`);
+    throw new Error(`backlog.json을 읽을 수 없습니다: ${error.message}`);
   }
 
   try {
-    return JSON.parse(source);
+    return { source, data: JSON.parse(source) };
   } catch (error) {
-    throw new Error(`backlog_sol.json이 올바른 JSON이 아닙니다: ${error.message}`);
+    throw new Error(`backlog.json이 올바른 JSON이 아닙니다: ${error.message}`);
   }
+}
+
+// 파일 전체를 다시 직렬화하면 배열 줄바꿈 같은 원본 서식이 전부 바뀐다.
+// 바꾸려는 status 값의 글자만 잘라 끼워 나머지 바이트는 그대로 둔다.
+function replaceStatusInSource(source, id, status) {
+  const idPattern = new RegExp(`"id"\\s*:\\s*"${id}"`);
+  const idMatch = idPattern.exec(source);
+  if (!idMatch) {
+    return null;
+  }
+
+  const statusPattern = /("status"\s*:\s*")([^"\\]*)(")/g;
+  statusPattern.lastIndex = idMatch.index;
+  const statusMatch = statusPattern.exec(source);
+  if (!statusMatch) {
+    return null;
+  }
+
+  const valueStart = statusMatch.index + statusMatch[1].length;
+  const valueEnd = valueStart + statusMatch[2].length;
+  return source.slice(0, valueStart) + status + source.slice(valueEnd);
 }
 
 function validateBacklog(backlog) {
@@ -146,7 +167,7 @@ async function main() {
     return;
   }
 
-  const backlog = await loadBacklog();
+  const { source, data: backlog } = await loadBacklog();
 
   if (command === 'list') {
     if (args.length !== 0) {
@@ -190,8 +211,29 @@ async function main() {
       return;
     }
 
+    if (task.status === status) {
+      console.log(`${id}\t${status}\t${task.title}`);
+      return;
+    }
+
+    const updated = replaceStatusInSource(source, id, status);
+    if (updated === null) {
+      throw new Error(`${id}의 status 위치를 파일에서 찾지 못했습니다`);
+    }
+
+    // 서식만 남기고 값이 정확히 하나 바뀌었는지 확인한 뒤에 쓴다.
     task.status = status;
-    await writeFile(backlogPath, `${JSON.stringify(backlog, null, 2)}\n`, 'utf8');
+    let reparsed;
+    try {
+      reparsed = JSON.parse(updated);
+    } catch (error) {
+      throw new Error(`수정 결과가 올바른 JSON이 아니라 저장하지 않았습니다: ${error.message}`);
+    }
+    if (JSON.stringify(reparsed) !== JSON.stringify(backlog)) {
+      throw new Error('수정 결과가 의도한 내용과 달라 저장하지 않았습니다');
+    }
+
+    await writeFile(backlogPath, updated, 'utf8');
     console.log(`${id}\t${status}\t${task.title}`);
     return;
   }
