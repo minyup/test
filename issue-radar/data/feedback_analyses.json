@@ -1,0 +1,5404 @@
+[
+  {
+    "id": "FA-0001",
+    "feedback_item_id": "FI-0001",
+    "product_id": "P-001",
+    "issue_category": "화질",
+    "issue_subcategory": "밝기",
+    "sentiment": "positive",
+    "summary": "루멘 폰 X 화면 밝기 관련 뉴스 기사로, 한낮 실외에서도 화면이 또렷하다는 평가가 담겨 있다. 감성은 긍정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "밝기",
+      "화면 밝기",
+      "긍정",
+      "루멘"
+    ],
+    "confidence_score": 0.82,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-16T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0002",
+    "feedback_item_id": "FI-0002",
+    "product_id": "P-001",
+    "issue_category": "화질",
+    "issue_subcategory": "밝기",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 화면 밝기 관련 커뮤니티 글로, 실외에서 화면이 잘 보이지 않는다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "밝기",
+      "화면 밝기",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.81,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-17T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0003",
+    "feedback_item_id": "FI-0003",
+    "product_id": "P-001",
+    "issue_category": "화질",
+    "issue_subcategory": "번인",
+    "sentiment": "neutral",
+    "summary": "루멘 폰 X 번인 관련 영상 게시물로, 자국이 생기는지 기간을 두고 지켜보는 기록이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "화질",
+      "번인",
+      "중립",
+      "루멘"
+    ],
+    "confidence_score": 0.63,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-16T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0004",
+    "feedback_item_id": "FI-0004",
+    "product_id": "P-001",
+    "issue_category": "화질",
+    "issue_subcategory": "플리커",
+    "sentiment": "neutral",
+    "summary": "루멘 폰 X 화면 깜빡임 관련 커뮤니티 글로, 저휘도 깜빡임 정도를 재 본 관찰이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "화질",
+      "플리커",
+      "화면 깜빡임",
+      "중립",
+      "루멘"
+    ],
+    "confidence_score": 0.82,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-15T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0005",
+    "feedback_item_id": "FI-0005",
+    "product_id": "P-002",
+    "issue_category": "화질",
+    "issue_subcategory": "번인",
+    "sentiment": "negative",
+    "summary": "아틀라스 탭 11 번인 관련 뉴스 기사로, 오래 띄운 화면의 자국이 지워지지 않는다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "번인",
+      "부정",
+      "아틀라스"
+    ],
+    "confidence_score": 0.93,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-17T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0006",
+    "feedback_item_id": "FI-0006",
+    "product_id": "P-002",
+    "issue_category": "화질",
+    "issue_subcategory": "번인",
+    "sentiment": "neutral",
+    "summary": "아틀라스 탭 11 번인 관련 영상 게시물로, 자국이 생기는지 기간을 두고 지켜보는 기록이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "화질",
+      "번인",
+      "중립",
+      "아틀라스"
+    ],
+    "confidence_score": 0.7,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-16T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0007",
+    "feedback_item_id": "FI-0007",
+    "product_id": "P-003",
+    "issue_category": "화질",
+    "issue_subcategory": "플리커",
+    "sentiment": "negative",
+    "summary": "클리어뷰 모니터 27 화면 깜빡임 관련 영상 게시물로, 낮은 밝기에서 화면이 떨려 눈이 피로하다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "플리커",
+      "화면 깜빡임",
+      "부정",
+      "클리어뷰"
+    ],
+    "confidence_score": 0.81,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-15T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0008",
+    "feedback_item_id": "FI-0008",
+    "product_id": "P-003",
+    "issue_category": "화질",
+    "issue_subcategory": "플리커",
+    "sentiment": "neutral",
+    "summary": "클리어뷰 모니터 27 화면 깜빡임 관련 영상 게시물로, 저휘도 깜빡임 정도를 재 본 관찰이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "화질",
+      "플리커",
+      "화면 깜빡임",
+      "중립",
+      "클리어뷰"
+    ],
+    "confidence_score": 0.62,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-15T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0009",
+    "feedback_item_id": "FI-0009",
+    "product_id": "P-001",
+    "issue_category": "화질",
+    "issue_subcategory": "색 정확도",
+    "sentiment": "positive",
+    "summary": "루멘 폰 X 색 정확도 관련 영상 게시물로, 기본 설정에서도 색 차이가 적다는 평가가 담겨 있다. 감성은 긍정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "색 정확도",
+      "긍정",
+      "루멘"
+    ],
+    "confidence_score": 0.88,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-16T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0010",
+    "feedback_item_id": "FI-0010",
+    "product_id": "P-001",
+    "issue_category": "화질",
+    "issue_subcategory": "플리커",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 화면 깜빡임 관련 뉴스 기사로, 낮은 밝기에서 화면이 떨려 눈이 피로하다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "플리커",
+      "화면 깜빡임",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.75,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-18T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0011",
+    "feedback_item_id": "FI-0011",
+    "product_id": "P-001",
+    "issue_category": "화질",
+    "issue_subcategory": "번인",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 번인 관련 뉴스 기사로, 오래 띄운 화면의 자국이 지워지지 않는다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "번인",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.97,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-18T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0012",
+    "feedback_item_id": "FI-0012",
+    "product_id": "P-001",
+    "issue_category": "성능",
+    "issue_subcategory": "화면 잔상",
+    "sentiment": "neutral",
+    "summary": "루멘 폰 X 화면 잔상 관련 커뮤니티 글로, 잔상이 몇 장면 남는지 재 본 관찰이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "성능",
+      "화면 잔상",
+      "중립",
+      "루멘"
+    ],
+    "confidence_score": 0.77,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-17T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0013",
+    "feedback_item_id": "FI-0013",
+    "product_id": "P-001",
+    "issue_category": "성능",
+    "issue_subcategory": "응답 속도",
+    "sentiment": "neutral",
+    "summary": "루멘 폰 X 응답 속도 관련 뉴스 기사로, 업데이트 전후 반응 속도를 견준 관찰이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "성능",
+      "응답 속도",
+      "중립",
+      "루멘"
+    ],
+    "confidence_score": 0.75,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-18T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0014",
+    "feedback_item_id": "FI-0014",
+    "product_id": "P-002",
+    "issue_category": "화질",
+    "issue_subcategory": "색 균일도",
+    "sentiment": "negative",
+    "summary": "아틀라스 탭 11 화면 색 균일도 관련 커뮤니티 글로, 화면 일부만 색이 다르게 뜬다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "색 균일도",
+      "화면 색 균일도",
+      "부정",
+      "아틀라스"
+    ],
+    "confidence_score": 0.82,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-16T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0015",
+    "feedback_item_id": "FI-0015",
+    "product_id": "P-002",
+    "issue_category": "화질",
+    "issue_subcategory": "밝기",
+    "sentiment": "neutral",
+    "summary": "아틀라스 탭 11 화면 밝기 관련 커뮤니티 글로, 표시된 최대 밝기와 실제 값을 견준 관찰이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "화질",
+      "밝기",
+      "화면 밝기",
+      "중립",
+      "아틀라스"
+    ],
+    "confidence_score": 0.79,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-18T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0016",
+    "feedback_item_id": "FI-0016",
+    "product_id": "P-003",
+    "issue_category": "화질",
+    "issue_subcategory": "색 균일도",
+    "sentiment": "positive",
+    "summary": "클리어뷰 모니터 27 화면 색 균일도 관련 뉴스 기사로, 화면 전체 색이 고르게 유지된다는 평가가 담겨 있다. 감성은 긍정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "색 균일도",
+      "화면 색 균일도",
+      "긍정",
+      "클리어뷰"
+    ],
+    "confidence_score": 0.77,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-18T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0017",
+    "feedback_item_id": "FI-0017",
+    "product_id": "P-003",
+    "issue_category": "화질",
+    "issue_subcategory": "번인",
+    "sentiment": "negative",
+    "summary": "클리어뷰 모니터 27 번인 관련 커뮤니티 글로, 오래 띄운 화면의 자국이 지워지지 않는다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "번인",
+      "부정",
+      "클리어뷰"
+    ],
+    "confidence_score": 0.92,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-16T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0018",
+    "feedback_item_id": "FI-0018",
+    "product_id": "P-003",
+    "issue_category": "성능",
+    "issue_subcategory": "응답 속도",
+    "sentiment": "neutral",
+    "summary": "클리어뷰 모니터 27 응답 속도 관련 뉴스 기사로, 업데이트 전후 반응 속도를 견준 관찰이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "성능",
+      "응답 속도",
+      "중립",
+      "클리어뷰"
+    ],
+    "confidence_score": 0.82,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-18T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0019",
+    "feedback_item_id": "FI-0019",
+    "product_id": "P-001",
+    "issue_category": "성능",
+    "issue_subcategory": "화면 잔상",
+    "sentiment": "positive",
+    "summary": "루멘 폰 X 화면 잔상 관련 커뮤니티 글로, 빠른 화면에서도 잔상이 적다는 평가가 담겨 있다. 감성은 긍정으로 분류했다.",
+    "keywords": [
+      "성능",
+      "화면 잔상",
+      "긍정",
+      "루멘"
+    ],
+    "confidence_score": 0.89,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-19T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0020",
+    "feedback_item_id": "FI-0020",
+    "product_id": "P-001",
+    "issue_category": "화질",
+    "issue_subcategory": "플리커",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 화면 깜빡임 관련 커뮤니티 글로, 낮은 밝기에서 화면이 떨려 눈이 피로하다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "플리커",
+      "화면 깜빡임",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.88,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-18T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0021",
+    "feedback_item_id": "FI-0021",
+    "product_id": "P-001",
+    "issue_category": "소비전력",
+    "issue_subcategory": "기타",
+    "sentiment": "neutral",
+    "summary": "루멘 폰 X 전력 소비 관련 커뮤니티 글로, 조건에 따라 결과가 갈린다는 관찰이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "소비전력",
+      "전력 소비",
+      "중립",
+      "루멘"
+    ],
+    "confidence_score": 0.89,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-19T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0022",
+    "feedback_item_id": "FI-0022",
+    "product_id": "P-002",
+    "issue_category": "화질",
+    "issue_subcategory": "번인",
+    "sentiment": "positive",
+    "summary": "아틀라스 탭 11 번인 관련 커뮤니티 글로, 장시간 사용에도 자국이 남지 않는다는 평가가 담겨 있다. 감성은 긍정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "번인",
+      "긍정",
+      "아틀라스"
+    ],
+    "confidence_score": 0.81,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-18T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0023",
+    "feedback_item_id": "FI-0023",
+    "product_id": "P-002",
+    "issue_category": "성능",
+    "issue_subcategory": "화면 잔상",
+    "sentiment": "negative",
+    "summary": "아틀라스 탭 11 화면 잔상 관련 뉴스 기사로, 빠른 화면에서 잔상이 끌린다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "성능",
+      "화면 잔상",
+      "부정",
+      "아틀라스"
+    ],
+    "confidence_score": 0.89,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-19T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0024",
+    "feedback_item_id": "FI-0024",
+    "product_id": "P-002",
+    "issue_category": "성능",
+    "issue_subcategory": "기타",
+    "sentiment": "neutral",
+    "summary": "아틀라스 탭 11 성능 관련 뉴스 기사로, 업데이트 전후 체감 속도를 견준 관찰이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "성능",
+      "중립",
+      "아틀라스"
+    ],
+    "confidence_score": 0.63,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-17T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0025",
+    "feedback_item_id": "FI-0025",
+    "product_id": "P-003",
+    "issue_category": "성능",
+    "issue_subcategory": "화면 잔상",
+    "sentiment": "negative",
+    "summary": "클리어뷰 모니터 27 화면 잔상 관련 영상 게시물로, 빠른 화면에서 잔상이 끌린다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "성능",
+      "화면 잔상",
+      "부정",
+      "클리어뷰"
+    ],
+    "confidence_score": 0.93,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-18T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0026",
+    "feedback_item_id": "FI-0026",
+    "product_id": "P-003",
+    "issue_category": "성능",
+    "issue_subcategory": "기타",
+    "sentiment": "neutral",
+    "summary": "클리어뷰 모니터 27 성능 관련 커뮤니티 글로, 업데이트 전후 체감 속도를 견준 관찰이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "성능",
+      "중립",
+      "클리어뷰"
+    ],
+    "confidence_score": 0.66,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-18T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0027",
+    "feedback_item_id": "FI-0027",
+    "product_id": "P-001",
+    "issue_category": "성능",
+    "issue_subcategory": "화면 잔상",
+    "sentiment": "positive",
+    "summary": "루멘 폰 X 화면 잔상 관련 커뮤니티 글로, 빠른 화면에서도 잔상이 적다는 평가가 담겨 있다. 감성은 긍정으로 분류했다.",
+    "keywords": [
+      "성능",
+      "화면 잔상",
+      "긍정",
+      "루멘"
+    ],
+    "confidence_score": 0.79,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-18T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0028",
+    "feedback_item_id": "FI-0028",
+    "product_id": "P-001",
+    "issue_category": "성능",
+    "issue_subcategory": "화면 잔상",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 화면 잔상 관련 영상 게시물로, 빠른 화면에서 잔상이 끌린다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "성능",
+      "화면 잔상",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.84,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-19T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0029",
+    "feedback_item_id": "FI-0029",
+    "product_id": "P-001",
+    "issue_category": "소비전력",
+    "issue_subcategory": "배터리 소모",
+    "sentiment": "neutral",
+    "summary": "루멘 폰 X 배터리 소모 관련 뉴스 기사로, 하루 사용량이 조건마다 다르다는 관찰이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "소비전력",
+      "배터리 소모",
+      "중립",
+      "루멘"
+    ],
+    "confidence_score": 0.67,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-20T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0030",
+    "feedback_item_id": "FI-0030",
+    "product_id": "P-002",
+    "issue_category": "화질",
+    "issue_subcategory": "플리커",
+    "sentiment": "positive",
+    "summary": "아틀라스 탭 11 화면 깜빡임 관련 뉴스 기사로, 최저 밝기에서도 깜빡임이 없다는 평가가 담겨 있다. 감성은 긍정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "플리커",
+      "화면 깜빡임",
+      "긍정",
+      "아틀라스"
+    ],
+    "confidence_score": 0.88,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-18T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0031",
+    "feedback_item_id": "FI-0031",
+    "product_id": "P-002",
+    "issue_category": "성능",
+    "issue_subcategory": "기타",
+    "sentiment": "negative",
+    "summary": "아틀라스 탭 11 성능 관련 뉴스 기사로, 무거운 작업에서 눈에 띄게 느려진다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "성능",
+      "부정",
+      "아틀라스"
+    ],
+    "confidence_score": 0.84,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-20T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0032",
+    "feedback_item_id": "FI-0032",
+    "product_id": "P-002",
+    "issue_category": "성능",
+    "issue_subcategory": "기타",
+    "sentiment": "neutral",
+    "summary": "아틀라스 탭 11 성능 관련 영상 게시물로, 업데이트 전후 체감 속도를 견준 관찰이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "성능",
+      "중립",
+      "아틀라스"
+    ],
+    "confidence_score": 0.68,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-20T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0033",
+    "feedback_item_id": "FI-0033",
+    "product_id": "P-003",
+    "issue_category": "화질",
+    "issue_subcategory": "플리커",
+    "sentiment": "positive",
+    "summary": "클리어뷰 모니터 27 화면 깜빡임 관련 뉴스 기사로, 최저 밝기에서도 깜빡임이 없다는 평가가 담겨 있다. 감성은 긍정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "플리커",
+      "화면 깜빡임",
+      "긍정",
+      "클리어뷰"
+    ],
+    "confidence_score": 0.76,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-19T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0034",
+    "feedback_item_id": "FI-0034",
+    "product_id": "P-003",
+    "issue_category": "소비전력",
+    "issue_subcategory": "기타",
+    "sentiment": "negative",
+    "summary": "클리어뷰 모니터 27 전력 소비 관련 커뮤니티 글로, 같은 증상이 반복돼 불편하다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "소비전력",
+      "전력 소비",
+      "부정",
+      "클리어뷰"
+    ],
+    "confidence_score": 0.89,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-20T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0035",
+    "feedback_item_id": "FI-0035",
+    "product_id": "P-003",
+    "issue_category": "소비전력",
+    "issue_subcategory": "배터리 소모",
+    "sentiment": "neutral",
+    "summary": "클리어뷰 모니터 27 배터리 소모 관련 커뮤니티 글로, 하루 사용량이 조건마다 다르다는 관찰이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "소비전력",
+      "배터리 소모",
+      "중립",
+      "클리어뷰"
+    ],
+    "confidence_score": 0.81,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-18T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0036",
+    "feedback_item_id": "FI-0036",
+    "product_id": "P-001",
+    "issue_category": "성능",
+    "issue_subcategory": "기타",
+    "sentiment": "positive",
+    "summary": "루멘 폰 X 성능 관련 영상 게시물로, 무거운 작업에서도 속도가 유지된다는 평가가 담겨 있다. 감성은 긍정으로 분류했다.",
+    "keywords": [
+      "성능",
+      "긍정",
+      "루멘"
+    ],
+    "confidence_score": 0.87,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-19T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0037",
+    "feedback_item_id": "FI-0037",
+    "product_id": "P-001",
+    "issue_category": "성능",
+    "issue_subcategory": "응답 속도",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 응답 속도 관련 뉴스 기사로, 조작에 대한 반응이 늦다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "성능",
+      "응답 속도",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.89,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-21T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0038",
+    "feedback_item_id": "FI-0038",
+    "product_id": "P-001",
+    "issue_category": "소비전력",
+    "issue_subcategory": "배터리 소모",
+    "sentiment": "neutral",
+    "summary": "루멘 폰 X 배터리 소모 관련 커뮤니티 글로, 하루 사용량이 조건마다 다르다는 관찰이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "소비전력",
+      "배터리 소모",
+      "중립",
+      "루멘"
+    ],
+    "confidence_score": 0.91,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-19T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0039",
+    "feedback_item_id": "FI-0039",
+    "product_id": "P-001",
+    "issue_category": "가격",
+    "issue_subcategory": "기타",
+    "sentiment": "neutral",
+    "summary": "루멘 폰 X 가격 관련 커뮤니티 글로, 값이 오르내려 살 시점을 재는 관찰이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "가격",
+      "중립",
+      "루멘"
+    ],
+    "confidence_score": 0.74,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-19T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0040",
+    "feedback_item_id": "FI-0040",
+    "product_id": "P-002",
+    "issue_category": "성능",
+    "issue_subcategory": "기타",
+    "sentiment": "positive",
+    "summary": "아틀라스 탭 11 성능 관련 뉴스 기사로, 무거운 작업에서도 속도가 유지된다는 평가가 담겨 있다. 감성은 긍정으로 분류했다.",
+    "keywords": [
+      "성능",
+      "긍정",
+      "아틀라스"
+    ],
+    "confidence_score": 0.84,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-20T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0041",
+    "feedback_item_id": "FI-0041",
+    "product_id": "P-002",
+    "issue_category": "소비전력",
+    "issue_subcategory": "배터리 소모",
+    "sentiment": "negative",
+    "summary": "아틀라스 탭 11 배터리 소모 관련 뉴스 기사로, 완충 후 반나절도 못 간다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "소비전력",
+      "배터리 소모",
+      "부정",
+      "아틀라스"
+    ],
+    "confidence_score": 0.88,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-21T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0042",
+    "feedback_item_id": "FI-0042",
+    "product_id": "P-002",
+    "issue_category": "소비전력",
+    "issue_subcategory": "배터리 소모",
+    "sentiment": "neutral",
+    "summary": "아틀라스 탭 11 배터리 소모 관련 커뮤니티 글로, 하루 사용량이 조건마다 다르다는 관찰이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "소비전력",
+      "배터리 소모",
+      "중립",
+      "아틀라스"
+    ],
+    "confidence_score": 0.68,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-20T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0043",
+    "feedback_item_id": "FI-0043",
+    "product_id": "P-003",
+    "issue_category": "소비전력",
+    "issue_subcategory": "배터리 소모",
+    "sentiment": "neutral",
+    "summary": "클리어뷰 모니터 27 배터리 소모 관련 뉴스 기사로, 하루 사용량이 조건마다 다르다는 관찰이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "소비전력",
+      "배터리 소모",
+      "중립",
+      "클리어뷰"
+    ],
+    "confidence_score": 0.9,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-21T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0044",
+    "feedback_item_id": "FI-0044",
+    "product_id": "P-001",
+    "issue_category": "성능",
+    "issue_subcategory": "응답 속도",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 응답 속도 관련 뉴스 기사로, 조작에 대한 반응이 늦다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "성능",
+      "응답 속도",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.83,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-21T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0045",
+    "feedback_item_id": "FI-0045",
+    "product_id": "P-001",
+    "issue_category": "가격",
+    "issue_subcategory": "기타",
+    "sentiment": "neutral",
+    "summary": "루멘 폰 X 가격 관련 커뮤니티 글로, 값이 오르내려 살 시점을 재는 관찰이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "가격",
+      "중립",
+      "루멘"
+    ],
+    "confidence_score": 0.72,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-20T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0046",
+    "feedback_item_id": "FI-0046",
+    "product_id": "P-002",
+    "issue_category": "소비전력",
+    "issue_subcategory": "기타",
+    "sentiment": "negative",
+    "summary": "아틀라스 탭 11 전력 소비 관련 뉴스 기사로, 같은 증상이 반복돼 불편하다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "소비전력",
+      "전력 소비",
+      "부정",
+      "아틀라스"
+    ],
+    "confidence_score": 0.8,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-22T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0047",
+    "feedback_item_id": "FI-0047",
+    "product_id": "P-002",
+    "issue_category": "소비전력",
+    "issue_subcategory": "기타",
+    "sentiment": "neutral",
+    "summary": "아틀라스 탭 11 전력 소비 관련 영상 게시물로, 조건에 따라 결과가 갈린다는 관찰이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "소비전력",
+      "전력 소비",
+      "중립",
+      "아틀라스"
+    ],
+    "confidence_score": 0.71,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-22T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0048",
+    "feedback_item_id": "FI-0048",
+    "product_id": "P-003",
+    "issue_category": "성능",
+    "issue_subcategory": "응답 속도",
+    "sentiment": "positive",
+    "summary": "클리어뷰 모니터 27 응답 속도 관련 커뮤니티 글로, 여러 작업에서도 반응이 밀리지 않는다는 평가가 담겨 있다. 감성은 긍정으로 분류했다.",
+    "keywords": [
+      "성능",
+      "응답 속도",
+      "긍정",
+      "클리어뷰"
+    ],
+    "confidence_score": 0.84,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-21T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0049",
+    "feedback_item_id": "FI-0049",
+    "product_id": "P-003",
+    "issue_category": "가격",
+    "issue_subcategory": "기타",
+    "sentiment": "neutral",
+    "summary": "클리어뷰 모니터 27 가격 관련 뉴스 기사로, 값이 오르내려 살 시점을 재는 관찰이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "가격",
+      "중립",
+      "클리어뷰"
+    ],
+    "confidence_score": 0.98,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-22T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0050",
+    "feedback_item_id": "FI-0050",
+    "product_id": "P-001",
+    "issue_category": "소비전력",
+    "issue_subcategory": "배터리 소모",
+    "sentiment": "positive",
+    "summary": "루멘 폰 X 배터리 소모 관련 뉴스 기사로, 하루 종일 써도 배터리가 남는다는 평가가 담겨 있다. 감성은 긍정으로 분류했다.",
+    "keywords": [
+      "소비전력",
+      "배터리 소모",
+      "긍정",
+      "루멘"
+    ],
+    "confidence_score": 0.85,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-21T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0051",
+    "feedback_item_id": "FI-0051",
+    "product_id": "P-001",
+    "issue_category": "소비전력",
+    "issue_subcategory": "배터리 소모",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 배터리 소모 관련 뉴스 기사로, 완충 후 반나절도 못 간다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "소비전력",
+      "배터리 소모",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.76,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-21T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0052",
+    "feedback_item_id": "FI-0052",
+    "product_id": "P-001",
+    "issue_category": "가격",
+    "issue_subcategory": "기타",
+    "sentiment": "neutral",
+    "summary": "루멘 폰 X 가격 관련 커뮤니티 글로, 값이 오르내려 살 시점을 재는 관찰이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "가격",
+      "중립",
+      "루멘"
+    ],
+    "confidence_score": 0.94,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-22T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0053",
+    "feedback_item_id": "FI-0053",
+    "product_id": "P-002",
+    "issue_category": "성능",
+    "issue_subcategory": "응답 속도",
+    "sentiment": "positive",
+    "summary": "아틀라스 탭 11 응답 속도 관련 뉴스 기사로, 여러 작업에서도 반응이 밀리지 않는다는 평가가 담겨 있다. 감성은 긍정으로 분류했다.",
+    "keywords": [
+      "성능",
+      "응답 속도",
+      "긍정",
+      "아틀라스"
+    ],
+    "confidence_score": 0.9,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-21T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0054",
+    "feedback_item_id": "FI-0054",
+    "product_id": "P-002",
+    "issue_category": "소비전력",
+    "issue_subcategory": "기타",
+    "sentiment": "negative",
+    "summary": "아틀라스 탭 11 전력 소비 관련 커뮤니티 글로, 같은 증상이 반복돼 불편하다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "소비전력",
+      "전력 소비",
+      "부정",
+      "아틀라스"
+    ],
+    "confidence_score": 0.78,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-22T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0055",
+    "feedback_item_id": "FI-0055",
+    "product_id": "P-002",
+    "issue_category": "가격",
+    "issue_subcategory": "기타",
+    "sentiment": "neutral",
+    "summary": "아틀라스 탭 11 가격 관련 커뮤니티 글로, 값이 오르내려 살 시점을 재는 관찰이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "가격",
+      "중립",
+      "아틀라스"
+    ],
+    "confidence_score": 0.92,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-22T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0056",
+    "feedback_item_id": "FI-0056",
+    "product_id": "P-003",
+    "issue_category": "가격",
+    "issue_subcategory": "기타",
+    "sentiment": "neutral",
+    "summary": "클리어뷰 모니터 27 가격 관련 뉴스 기사로, 값이 오르내려 살 시점을 재는 관찰이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "가격",
+      "중립",
+      "클리어뷰"
+    ],
+    "confidence_score": 0.8,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-23T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0057",
+    "feedback_item_id": "FI-0057",
+    "product_id": "P-001",
+    "issue_category": "소비전력",
+    "issue_subcategory": "기타",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 전력 소비 관련 뉴스 기사로, 같은 증상이 반복돼 불편하다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "소비전력",
+      "전력 소비",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.91,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-24T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0058",
+    "feedback_item_id": "FI-0058",
+    "product_id": "P-001",
+    "issue_category": "가격",
+    "issue_subcategory": "기타",
+    "sentiment": "neutral",
+    "summary": "루멘 폰 X 가격 관련 영상 게시물로, 값이 오르내려 살 시점을 재는 관찰이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "가격",
+      "중립",
+      "루멘"
+    ],
+    "confidence_score": 0.71,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-24T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0059",
+    "feedback_item_id": "FI-0059",
+    "product_id": "P-002",
+    "issue_category": "소비전력",
+    "issue_subcategory": "배터리 소모",
+    "sentiment": "positive",
+    "summary": "아틀라스 탭 11 배터리 소모 관련 뉴스 기사로, 하루 종일 써도 배터리가 남는다는 평가가 담겨 있다. 감성은 긍정으로 분류했다.",
+    "keywords": [
+      "소비전력",
+      "배터리 소모",
+      "긍정",
+      "아틀라스"
+    ],
+    "confidence_score": 0.93,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-22T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0060",
+    "feedback_item_id": "FI-0060",
+    "product_id": "P-002",
+    "issue_category": "소비전력",
+    "issue_subcategory": "기타",
+    "sentiment": "negative",
+    "summary": "아틀라스 탭 11 전력 소비 관련 뉴스 기사로, 같은 증상이 반복돼 불편하다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "소비전력",
+      "전력 소비",
+      "부정",
+      "아틀라스"
+    ],
+    "confidence_score": 0.74,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-23T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0061",
+    "feedback_item_id": "FI-0061",
+    "product_id": "P-002",
+    "issue_category": "가격",
+    "issue_subcategory": "기타",
+    "sentiment": "neutral",
+    "summary": "아틀라스 탭 11 가격 관련 영상 게시물로, 값이 오르내려 살 시점을 재는 관찰이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "가격",
+      "중립",
+      "아틀라스"
+    ],
+    "confidence_score": 0.75,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-24T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0062",
+    "feedback_item_id": "FI-0062",
+    "product_id": "P-003",
+    "issue_category": "소비전력",
+    "issue_subcategory": "배터리 소모",
+    "sentiment": "negative",
+    "summary": "클리어뷰 모니터 27 배터리 소모 관련 영상 게시물로, 완충 후 반나절도 못 간다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "소비전력",
+      "배터리 소모",
+      "부정",
+      "클리어뷰"
+    ],
+    "confidence_score": 0.79,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-22T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0063",
+    "feedback_item_id": "FI-0063",
+    "product_id": "P-003",
+    "issue_category": "내구성",
+    "issue_subcategory": "번인",
+    "sentiment": "neutral",
+    "summary": "클리어뷰 모니터 27 번인 관련 커뮤니티 글로, 자국이 생기는지 기간을 두고 지켜보는 기록이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "내구성",
+      "번인",
+      "중립",
+      "클리어뷰"
+    ],
+    "confidence_score": 0.96,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-22T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0064",
+    "feedback_item_id": "FI-0064",
+    "product_id": "P-001",
+    "issue_category": "소비전력",
+    "issue_subcategory": "배터리 소모",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 배터리 소모 관련 뉴스 기사로, 완충 후 반나절도 못 간다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "소비전력",
+      "배터리 소모",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.93,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-25T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0065",
+    "feedback_item_id": "FI-0065",
+    "product_id": "P-001",
+    "issue_category": "내구성",
+    "issue_subcategory": "번인",
+    "sentiment": "neutral",
+    "summary": "루멘 폰 X 번인 관련 뉴스 기사로, 자국이 생기는지 기간을 두고 지켜보는 기록이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "내구성",
+      "번인",
+      "중립",
+      "루멘"
+    ],
+    "confidence_score": 0.69,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-24T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0066",
+    "feedback_item_id": "FI-0066",
+    "product_id": "P-002",
+    "issue_category": "가격",
+    "issue_subcategory": "기타",
+    "sentiment": "positive",
+    "summary": "아틀라스 탭 11 가격 관련 뉴스 기사로, 값에 견줘 구성이 아깝지 않다는 평가가 담겨 있다. 감성은 긍정으로 분류했다.",
+    "keywords": [
+      "가격",
+      "긍정",
+      "아틀라스"
+    ],
+    "confidence_score": 0.83,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-24T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0067",
+    "feedback_item_id": "FI-0067",
+    "product_id": "P-002",
+    "issue_category": "내구성",
+    "issue_subcategory": "번인",
+    "sentiment": "negative",
+    "summary": "아틀라스 탭 11 번인 관련 커뮤니티 글로, 오래 띄운 화면의 자국이 지워지지 않는다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "내구성",
+      "번인",
+      "부정",
+      "아틀라스"
+    ],
+    "confidence_score": 0.98,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-23T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0068",
+    "feedback_item_id": "FI-0068",
+    "product_id": "P-002",
+    "issue_category": "가격",
+    "issue_subcategory": "기타",
+    "sentiment": "neutral",
+    "summary": "아틀라스 탭 11 가격 관련 뉴스 기사로, 값이 오르내려 살 시점을 재는 관찰이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "가격",
+      "중립",
+      "아틀라스"
+    ],
+    "confidence_score": 0.98,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-25T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0069",
+    "feedback_item_id": "FI-0069",
+    "product_id": "P-003",
+    "issue_category": "내구성",
+    "issue_subcategory": "번인",
+    "sentiment": "neutral",
+    "summary": "클리어뷰 모니터 27 번인 관련 뉴스 기사로, 자국이 생기는지 기간을 두고 지켜보는 기록이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "내구성",
+      "번인",
+      "중립",
+      "클리어뷰"
+    ],
+    "confidence_score": 0.84,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-23T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0070",
+    "feedback_item_id": "FI-0070",
+    "product_id": "P-001",
+    "issue_category": "가격",
+    "issue_subcategory": "기타",
+    "sentiment": "positive",
+    "summary": "루멘 폰 X 가격 관련 뉴스 기사로, 값에 견줘 구성이 아깝지 않다는 평가가 담겨 있다. 감성은 긍정으로 분류했다.",
+    "keywords": [
+      "가격",
+      "긍정",
+      "루멘"
+    ],
+    "confidence_score": 0.97,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-26T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0071",
+    "feedback_item_id": "FI-0071",
+    "product_id": "P-001",
+    "issue_category": "소비전력",
+    "issue_subcategory": "배터리 소모",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 배터리 소모 관련 뉴스 기사로, 완충 후 반나절도 못 간다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "소비전력",
+      "배터리 소모",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.76,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-26T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0072",
+    "feedback_item_id": "FI-0072",
+    "product_id": "P-001",
+    "issue_category": "내구성",
+    "issue_subcategory": "번인",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 번인 관련 커뮤니티 글로, 오래 띄운 화면의 자국이 지워지지 않는다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "내구성",
+      "번인",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.91,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-25T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0073",
+    "feedback_item_id": "FI-0073",
+    "product_id": "P-001",
+    "issue_category": "내구성",
+    "issue_subcategory": "번인",
+    "sentiment": "neutral",
+    "summary": "루멘 폰 X 번인 관련 커뮤니티 글로, 자국이 생기는지 기간을 두고 지켜보는 기록이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "내구성",
+      "번인",
+      "중립",
+      "루멘"
+    ],
+    "confidence_score": 0.81,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-24T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0074",
+    "feedback_item_id": "FI-0074",
+    "product_id": "P-002",
+    "issue_category": "가격",
+    "issue_subcategory": "기타",
+    "sentiment": "positive",
+    "summary": "아틀라스 탭 11 가격 관련 영상 게시물로, 값에 견줘 구성이 아깝지 않다는 평가가 담겨 있다. 감성은 긍정으로 분류했다.",
+    "keywords": [
+      "가격",
+      "긍정",
+      "아틀라스"
+    ],
+    "confidence_score": 0.77,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-25T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0075",
+    "feedback_item_id": "FI-0075",
+    "product_id": "P-002",
+    "issue_category": "내구성",
+    "issue_subcategory": "번인",
+    "sentiment": "negative",
+    "summary": "아틀라스 탭 11 번인 관련 커뮤니티 글로, 오래 띄운 화면의 자국이 지워지지 않는다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "내구성",
+      "번인",
+      "부정",
+      "아틀라스"
+    ],
+    "confidence_score": 0.74,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-24T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0076",
+    "feedback_item_id": "FI-0076",
+    "product_id": "P-002",
+    "issue_category": "내구성",
+    "issue_subcategory": "기타",
+    "sentiment": "negative",
+    "summary": "아틀라스 탭 11 내구성 관련 커뮤니티 글로, 짧은 사용 기간에 마감이 상했다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "내구성",
+      "부정",
+      "아틀라스"
+    ],
+    "confidence_score": 0.84,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-24T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0077",
+    "feedback_item_id": "FI-0077",
+    "product_id": "P-002",
+    "issue_category": "내구성",
+    "issue_subcategory": "기타",
+    "sentiment": "neutral",
+    "summary": "아틀라스 탭 11 내구성 관련 커뮤니티 글로, 기간을 두고 마감 변화를 지켜보는 기록이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "내구성",
+      "중립",
+      "아틀라스"
+    ],
+    "confidence_score": 0.92,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-24T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0078",
+    "feedback_item_id": "FI-0078",
+    "product_id": "P-003",
+    "issue_category": "성능",
+    "issue_subcategory": "응답 속도",
+    "sentiment": "positive",
+    "summary": "클리어뷰 모니터 27 응답 속도 관련 커뮤니티 글로, 여러 작업에서도 반응이 밀리지 않는다는 평가가 담겨 있다. 감성은 긍정으로 분류했다.",
+    "keywords": [
+      "성능",
+      "응답 속도",
+      "긍정",
+      "클리어뷰"
+    ],
+    "confidence_score": 0.77,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-24T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0079",
+    "feedback_item_id": "FI-0079",
+    "product_id": "P-001",
+    "issue_category": "내구성",
+    "issue_subcategory": "번인",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 번인 관련 커뮤니티 글로, 오래 띄운 화면의 자국이 지워지지 않는다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "내구성",
+      "번인",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.83,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-26T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0080",
+    "feedback_item_id": "FI-0080",
+    "product_id": "P-001",
+    "issue_category": "내구성",
+    "issue_subcategory": "기타",
+    "sentiment": "neutral",
+    "summary": "루멘 폰 X 내구성 관련 뉴스 기사로, 기간을 두고 마감 변화를 지켜보는 기록이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "내구성",
+      "중립",
+      "루멘"
+    ],
+    "confidence_score": 0.72,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-27T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0081",
+    "feedback_item_id": "FI-0081",
+    "product_id": "P-002",
+    "issue_category": "내구성",
+    "issue_subcategory": "기타",
+    "sentiment": "positive",
+    "summary": "아틀라스 탭 11 내구성 관련 뉴스 기사로, 오래 써도 마감이 그대로라는 평가가 담겨 있다. 감성은 긍정으로 분류했다.",
+    "keywords": [
+      "내구성",
+      "긍정",
+      "아틀라스"
+    ],
+    "confidence_score": 0.85,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-27T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0082",
+    "feedback_item_id": "FI-0082",
+    "product_id": "P-002",
+    "issue_category": "발열",
+    "issue_subcategory": "배터리 소모",
+    "sentiment": "negative",
+    "summary": "아틀라스 탭 11 배터리 소모 관련 뉴스 기사로, 완충 후 반나절도 못 간다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "발열",
+      "배터리 소모",
+      "부정",
+      "아틀라스"
+    ],
+    "confidence_score": 0.87,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-25T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0083",
+    "feedback_item_id": "FI-0083",
+    "product_id": "P-002",
+    "issue_category": "내구성",
+    "issue_subcategory": "번인",
+    "sentiment": "neutral",
+    "summary": "아틀라스 탭 11 번인 관련 뉴스 기사로, 자국이 생기는지 기간을 두고 지켜보는 기록이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "내구성",
+      "번인",
+      "중립",
+      "아틀라스"
+    ],
+    "confidence_score": 0.77,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-27T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0084",
+    "feedback_item_id": "FI-0084",
+    "product_id": "P-003",
+    "issue_category": "소비전력",
+    "issue_subcategory": "기타",
+    "sentiment": "positive",
+    "summary": "클리어뷰 모니터 27 전력 소비 관련 영상 게시물로, 걱정한 부분이 문제가 되지 않았다는 평가가 담겨 있다. 감성은 긍정으로 분류했다.",
+    "keywords": [
+      "소비전력",
+      "전력 소비",
+      "긍정",
+      "클리어뷰"
+    ],
+    "confidence_score": 0.88,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-26T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0085",
+    "feedback_item_id": "FI-0085",
+    "product_id": "P-003",
+    "issue_category": "내구성",
+    "issue_subcategory": "기타",
+    "sentiment": "negative",
+    "summary": "클리어뷰 모니터 27 내구성 관련 뉴스 기사로, 짧은 사용 기간에 마감이 상했다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "내구성",
+      "부정",
+      "클리어뷰"
+    ],
+    "confidence_score": 0.76,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-27T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0086",
+    "feedback_item_id": "FI-0086",
+    "product_id": "P-003",
+    "issue_category": "발열",
+    "issue_subcategory": "배터리 소모",
+    "sentiment": "neutral",
+    "summary": "클리어뷰 모니터 27 배터리 소모 관련 커뮤니티 글로, 하루 사용량이 조건마다 다르다는 관찰이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "발열",
+      "배터리 소모",
+      "중립",
+      "클리어뷰"
+    ],
+    "confidence_score": 0.7,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-26T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0087",
+    "feedback_item_id": "FI-0087",
+    "product_id": "P-001",
+    "issue_category": "내구성",
+    "issue_subcategory": "기타",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 내구성 관련 뉴스 기사로, 짧은 사용 기간에 마감이 상했다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "내구성",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.87,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-26T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0088",
+    "feedback_item_id": "FI-0088",
+    "product_id": "P-001",
+    "issue_category": "발열",
+    "issue_subcategory": "기타",
+    "sentiment": "neutral",
+    "summary": "루멘 폰 X 발열 관련 뉴스 기사로, 반복 작업 중 표면 온도를 재 본 관찰이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "발열",
+      "중립",
+      "루멘"
+    ],
+    "confidence_score": 0.98,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-27T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0089",
+    "feedback_item_id": "FI-0089",
+    "product_id": "P-001",
+    "issue_category": "발열",
+    "issue_subcategory": "기타",
+    "sentiment": "neutral",
+    "summary": "루멘 폰 X 발열 관련 뉴스 기사로, 반복 작업 중 표면 온도를 재 본 관찰이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "발열",
+      "중립",
+      "루멘"
+    ],
+    "confidence_score": 0.83,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-28T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0090",
+    "feedback_item_id": "FI-0090",
+    "product_id": "P-002",
+    "issue_category": "발열",
+    "issue_subcategory": "배터리 소모",
+    "sentiment": "negative",
+    "summary": "아틀라스 탭 11 배터리 소모 관련 커뮤니티 글로, 완충 후 반나절도 못 간다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "발열",
+      "배터리 소모",
+      "부정",
+      "아틀라스"
+    ],
+    "confidence_score": 0.87,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-27T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0091",
+    "feedback_item_id": "FI-0091",
+    "product_id": "P-002",
+    "issue_category": "발열",
+    "issue_subcategory": "배터리 소모",
+    "sentiment": "neutral",
+    "summary": "아틀라스 탭 11 배터리 소모 관련 커뮤니티 글로, 하루 사용량이 조건마다 다르다는 관찰이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "발열",
+      "배터리 소모",
+      "중립",
+      "아틀라스"
+    ],
+    "confidence_score": 0.71,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-26T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0092",
+    "feedback_item_id": "FI-0092",
+    "product_id": "P-003",
+    "issue_category": "가격",
+    "issue_subcategory": "기타",
+    "sentiment": "positive",
+    "summary": "클리어뷰 모니터 27 가격 관련 커뮤니티 글로, 값에 견줘 구성이 아깝지 않다는 평가가 담겨 있다. 감성은 긍정으로 분류했다.",
+    "keywords": [
+      "가격",
+      "긍정",
+      "클리어뷰"
+    ],
+    "confidence_score": 0.77,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-27T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0093",
+    "feedback_item_id": "FI-0093",
+    "product_id": "P-003",
+    "issue_category": "기타",
+    "issue_subcategory": "기타",
+    "sentiment": "neutral",
+    "summary": "클리어뷰 모니터 27 사용성 관련 영상 게시물로, 쓰면서 알게 된 점을 정리한 기록이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "기타",
+      "사용성",
+      "중립",
+      "클리어뷰"
+    ],
+    "confidence_score": 0.75,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-27T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0094",
+    "feedback_item_id": "FI-0094",
+    "product_id": "P-001",
+    "issue_category": "가격",
+    "issue_subcategory": "기타",
+    "sentiment": "positive",
+    "summary": "루멘 폰 X 가격 관련 커뮤니티 글로, 값에 견줘 구성이 아깝지 않다는 평가가 담겨 있다. 감성은 긍정으로 분류했다.",
+    "keywords": [
+      "가격",
+      "긍정",
+      "루멘"
+    ],
+    "confidence_score": 0.93,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-29T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0095",
+    "feedback_item_id": "FI-0095",
+    "product_id": "P-001",
+    "issue_category": "발열",
+    "issue_subcategory": "배터리 소모",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 배터리 소모 관련 커뮤니티 글로, 완충 후 반나절도 못 간다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "발열",
+      "배터리 소모",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.79,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-27T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0096",
+    "feedback_item_id": "FI-0096",
+    "product_id": "P-001",
+    "issue_category": "발열",
+    "issue_subcategory": "기타",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 발열 관련 커뮤니티 글로, 짧은 사용에도 표면이 뜨거워진다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "발열",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.78,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-28T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0097",
+    "feedback_item_id": "FI-0097",
+    "product_id": "P-001",
+    "issue_category": "기타",
+    "issue_subcategory": "기타",
+    "sentiment": "neutral",
+    "summary": "루멘 폰 X 사용성 관련 커뮤니티 글로, 쓰면서 알게 된 점을 정리한 기록이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "기타",
+      "사용성",
+      "중립",
+      "루멘"
+    ],
+    "confidence_score": 0.76,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-27T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0098",
+    "feedback_item_id": "FI-0098",
+    "product_id": "P-002",
+    "issue_category": "발열",
+    "issue_subcategory": "기타",
+    "sentiment": "negative",
+    "summary": "아틀라스 탭 11 발열 관련 뉴스 기사로, 짧은 사용에도 표면이 뜨거워진다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "발열",
+      "부정",
+      "아틀라스"
+    ],
+    "confidence_score": 0.77,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-27T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0099",
+    "feedback_item_id": "FI-0099",
+    "product_id": "P-002",
+    "issue_category": "기타",
+    "issue_subcategory": "기타",
+    "sentiment": "neutral",
+    "summary": "아틀라스 탭 11 사용성 관련 영상 게시물로, 쓰면서 알게 된 점을 정리한 기록이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "기타",
+      "사용성",
+      "중립",
+      "아틀라스"
+    ],
+    "confidence_score": 0.67,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-28T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0100",
+    "feedback_item_id": "FI-0100",
+    "product_id": "P-003",
+    "issue_category": "가격",
+    "issue_subcategory": "기타",
+    "sentiment": "positive",
+    "summary": "클리어뷰 모니터 27 가격 관련 커뮤니티 글로, 값에 견줘 구성이 아깝지 않다는 평가가 담겨 있다. 감성은 긍정으로 분류했다.",
+    "keywords": [
+      "가격",
+      "긍정",
+      "클리어뷰"
+    ],
+    "confidence_score": 0.81,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-28T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0101",
+    "feedback_item_id": "FI-0101",
+    "product_id": "P-003",
+    "issue_category": "발열",
+    "issue_subcategory": "기타",
+    "sentiment": "negative",
+    "summary": "클리어뷰 모니터 27 발열 관련 커뮤니티 글로, 짧은 사용에도 표면이 뜨거워진다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "발열",
+      "부정",
+      "클리어뷰"
+    ],
+    "confidence_score": 0.8,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-29T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0102",
+    "feedback_item_id": "FI-0102",
+    "product_id": "P-003",
+    "issue_category": "기타",
+    "issue_subcategory": "기타",
+    "sentiment": "neutral",
+    "summary": "클리어뷰 모니터 27 사용성 관련 뉴스 기사로, 쓰면서 알게 된 점을 정리한 기록이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "기타",
+      "사용성",
+      "중립",
+      "클리어뷰"
+    ],
+    "confidence_score": 0.81,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-29T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0103",
+    "feedback_item_id": "FI-0103",
+    "product_id": "P-001",
+    "issue_category": "내구성",
+    "issue_subcategory": "기타",
+    "sentiment": "positive",
+    "summary": "루멘 폰 X 내구성 관련 커뮤니티 글로, 오래 써도 마감이 그대로라는 평가가 담겨 있다. 감성은 긍정으로 분류했다.",
+    "keywords": [
+      "내구성",
+      "긍정",
+      "루멘"
+    ],
+    "confidence_score": 0.73,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-29T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0104",
+    "feedback_item_id": "FI-0104",
+    "product_id": "P-001",
+    "issue_category": "발열",
+    "issue_subcategory": "기타",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 발열 관련 커뮤니티 글로, 짧은 사용에도 표면이 뜨거워진다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "발열",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.77,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-29T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0105",
+    "feedback_item_id": "FI-0105",
+    "product_id": "P-001",
+    "issue_category": "기타",
+    "issue_subcategory": "기타",
+    "sentiment": "neutral",
+    "summary": "루멘 폰 X 사용성 관련 뉴스 기사로, 쓰면서 알게 된 점을 정리한 기록이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "기타",
+      "사용성",
+      "중립",
+      "루멘"
+    ],
+    "confidence_score": 0.73,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-29T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0106",
+    "feedback_item_id": "FI-0106",
+    "product_id": "P-002",
+    "issue_category": "발열",
+    "issue_subcategory": "배터리 소모",
+    "sentiment": "negative",
+    "summary": "아틀라스 탭 11 배터리 소모 관련 커뮤니티 글로, 완충 후 반나절도 못 간다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "발열",
+      "배터리 소모",
+      "부정",
+      "아틀라스"
+    ],
+    "confidence_score": 0.98,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-30T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0107",
+    "feedback_item_id": "FI-0107",
+    "product_id": "P-002",
+    "issue_category": "기타",
+    "issue_subcategory": "기타",
+    "sentiment": "neutral",
+    "summary": "아틀라스 탭 11 사용성 관련 커뮤니티 글로, 쓰면서 알게 된 점을 정리한 기록이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "기타",
+      "사용성",
+      "중립",
+      "아틀라스"
+    ],
+    "confidence_score": 0.93,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-30T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0108",
+    "feedback_item_id": "FI-0108",
+    "product_id": "P-003",
+    "issue_category": "내구성",
+    "issue_subcategory": "기타",
+    "sentiment": "positive",
+    "summary": "클리어뷰 모니터 27 내구성 관련 뉴스 기사로, 오래 써도 마감이 그대로라는 평가가 담겨 있다. 감성은 긍정으로 분류했다.",
+    "keywords": [
+      "내구성",
+      "긍정",
+      "클리어뷰"
+    ],
+    "confidence_score": 0.77,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-29T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0109",
+    "feedback_item_id": "FI-0109",
+    "product_id": "P-003",
+    "issue_category": "발열",
+    "issue_subcategory": "기타",
+    "sentiment": "negative",
+    "summary": "클리어뷰 모니터 27 발열 관련 커뮤니티 글로, 짧은 사용에도 표면이 뜨거워진다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "발열",
+      "부정",
+      "클리어뷰"
+    ],
+    "confidence_score": 0.95,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-29T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0110",
+    "feedback_item_id": "FI-0110",
+    "product_id": "P-001",
+    "issue_category": "내구성",
+    "issue_subcategory": "번인",
+    "sentiment": "positive",
+    "summary": "루멘 폰 X 번인 관련 커뮤니티 글로, 장시간 사용에도 자국이 남지 않는다는 평가가 담겨 있다. 감성은 긍정으로 분류했다.",
+    "keywords": [
+      "내구성",
+      "번인",
+      "긍정",
+      "루멘"
+    ],
+    "confidence_score": 0.9,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-29T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0111",
+    "feedback_item_id": "FI-0111",
+    "product_id": "P-001",
+    "issue_category": "발열",
+    "issue_subcategory": "배터리 소모",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 배터리 소모 관련 영상 게시물로, 완충 후 반나절도 못 간다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "발열",
+      "배터리 소모",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.85,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-29T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0112",
+    "feedback_item_id": "FI-0112",
+    "product_id": "P-001",
+    "issue_category": "기타",
+    "issue_subcategory": "기타",
+    "sentiment": "neutral",
+    "summary": "루멘 폰 X 사용성 관련 커뮤니티 글로, 쓰면서 알게 된 점을 정리한 기록이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "기타",
+      "사용성",
+      "중립",
+      "루멘"
+    ],
+    "confidence_score": 0.96,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-30T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0113",
+    "feedback_item_id": "FI-0113",
+    "product_id": "P-002",
+    "issue_category": "발열",
+    "issue_subcategory": "배터리 소모",
+    "sentiment": "negative",
+    "summary": "아틀라스 탭 11 배터리 소모 관련 영상 게시물로, 완충 후 반나절도 못 간다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "발열",
+      "배터리 소모",
+      "부정",
+      "아틀라스"
+    ],
+    "confidence_score": 0.83,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-30T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0114",
+    "feedback_item_id": "FI-0114",
+    "product_id": "P-002",
+    "issue_category": "기타",
+    "issue_subcategory": "기타",
+    "sentiment": "neutral",
+    "summary": "아틀라스 탭 11 사용성 관련 커뮤니티 글로, 쓰면서 알게 된 점을 정리한 기록이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "기타",
+      "사용성",
+      "중립",
+      "아틀라스"
+    ],
+    "confidence_score": 0.84,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-30T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0115",
+    "feedback_item_id": "FI-0115",
+    "product_id": "P-003",
+    "issue_category": "내구성",
+    "issue_subcategory": "번인",
+    "sentiment": "positive",
+    "summary": "클리어뷰 모니터 27 번인 관련 커뮤니티 글로, 장시간 사용에도 자국이 남지 않는다는 평가가 담겨 있다. 감성은 긍정으로 분류했다.",
+    "keywords": [
+      "내구성",
+      "번인",
+      "긍정",
+      "클리어뷰"
+    ],
+    "confidence_score": 0.94,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-29T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0116",
+    "feedback_item_id": "FI-0116",
+    "product_id": "P-003",
+    "issue_category": "발열",
+    "issue_subcategory": "배터리 소모",
+    "sentiment": "negative",
+    "summary": "클리어뷰 모니터 27 배터리 소모 관련 커뮤니티 글로, 완충 후 반나절도 못 간다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "발열",
+      "배터리 소모",
+      "부정",
+      "클리어뷰"
+    ],
+    "confidence_score": 0.93,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-30T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0117",
+    "feedback_item_id": "FI-0117",
+    "product_id": "P-003",
+    "issue_category": "기타",
+    "issue_subcategory": "기타",
+    "sentiment": "neutral",
+    "summary": "클리어뷰 모니터 27 사용성 관련 커뮤니티 글로, 쓰면서 알게 된 점을 정리한 기록이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "기타",
+      "사용성",
+      "중립",
+      "클리어뷰"
+    ],
+    "confidence_score": 0.62,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-31T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0118",
+    "feedback_item_id": "FI-0118",
+    "product_id": "P-001",
+    "issue_category": "내구성",
+    "issue_subcategory": "기타",
+    "sentiment": "positive",
+    "summary": "루멘 폰 X 내구성 관련 커뮤니티 글로, 오래 써도 마감이 그대로라는 평가가 담겨 있다. 감성은 긍정으로 분류했다.",
+    "keywords": [
+      "내구성",
+      "긍정",
+      "루멘"
+    ],
+    "confidence_score": 0.76,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-01T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0119",
+    "feedback_item_id": "FI-0119",
+    "product_id": "P-001",
+    "issue_category": "발열",
+    "issue_subcategory": "배터리 소모",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 배터리 소모 관련 커뮤니티 글로, 완충 후 반나절도 못 간다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "발열",
+      "배터리 소모",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.88,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-31T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0120",
+    "feedback_item_id": "FI-0120",
+    "product_id": "P-001",
+    "issue_category": "발열",
+    "issue_subcategory": "배터리 소모",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 배터리 소모 관련 커뮤니티 글로, 완충 후 반나절도 못 간다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "발열",
+      "배터리 소모",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.75,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-01T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0121",
+    "feedback_item_id": "FI-0121",
+    "product_id": "P-001",
+    "issue_category": "기타",
+    "issue_subcategory": "기타",
+    "sentiment": "neutral",
+    "summary": "루멘 폰 X 사용성 관련 뉴스 기사로, 쓰면서 알게 된 점을 정리한 기록이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "기타",
+      "사용성",
+      "중립",
+      "루멘"
+    ],
+    "confidence_score": 0.95,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-31T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0122",
+    "feedback_item_id": "FI-0122",
+    "product_id": "P-002",
+    "issue_category": "내구성",
+    "issue_subcategory": "기타",
+    "sentiment": "positive",
+    "summary": "아틀라스 탭 11 내구성 관련 커뮤니티 글로, 오래 써도 마감이 그대로라는 평가가 담겨 있다. 감성은 긍정으로 분류했다.",
+    "keywords": [
+      "내구성",
+      "긍정",
+      "아틀라스"
+    ],
+    "confidence_score": 0.9,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-31T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0123",
+    "feedback_item_id": "FI-0123",
+    "product_id": "P-002",
+    "issue_category": "기타",
+    "issue_subcategory": "기타",
+    "sentiment": "negative",
+    "summary": "아틀라스 탭 11 사용성 관련 커뮤니티 글로, 설명되지 않는 동작이 반복된다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "기타",
+      "사용성",
+      "부정",
+      "아틀라스"
+    ],
+    "confidence_score": 0.95,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-30T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0124",
+    "feedback_item_id": "FI-0124",
+    "product_id": "P-002",
+    "issue_category": "기타",
+    "issue_subcategory": "기타",
+    "sentiment": "neutral",
+    "summary": "아틀라스 탭 11 사용성 관련 뉴스 기사로, 쓰면서 알게 된 점을 정리한 기록이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "기타",
+      "사용성",
+      "중립",
+      "아틀라스"
+    ],
+    "confidence_score": 0.96,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-31T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0125",
+    "feedback_item_id": "FI-0125",
+    "product_id": "P-003",
+    "issue_category": "내구성",
+    "issue_subcategory": "번인",
+    "sentiment": "positive",
+    "summary": "클리어뷰 모니터 27 번인 관련 커뮤니티 글로, 장시간 사용에도 자국이 남지 않는다는 평가가 담겨 있다. 감성은 긍정으로 분류했다.",
+    "keywords": [
+      "내구성",
+      "번인",
+      "긍정",
+      "클리어뷰"
+    ],
+    "confidence_score": 0.88,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-31T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0126",
+    "feedback_item_id": "FI-0126",
+    "product_id": "P-003",
+    "issue_category": "기타",
+    "issue_subcategory": "기타",
+    "sentiment": "neutral",
+    "summary": "클리어뷰 모니터 27 사용성 관련 뉴스 기사로, 쓰면서 알게 된 점을 정리한 기록이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "기타",
+      "사용성",
+      "중립",
+      "클리어뷰"
+    ],
+    "confidence_score": 0.96,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-30T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0127",
+    "feedback_item_id": "FI-0127",
+    "product_id": "P-001",
+    "issue_category": "화질",
+    "issue_subcategory": "색 정확도",
+    "sentiment": "positive",
+    "summary": "루멘 폰 X 색 정확도 관련 커뮤니티 글로, 기본 설정에서도 색 차이가 적다는 평가가 담겨 있다. 감성은 긍정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "색 정확도",
+      "긍정",
+      "루멘"
+    ],
+    "confidence_score": 0.82,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-02T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0128",
+    "feedback_item_id": "FI-0128",
+    "product_id": "P-001",
+    "issue_category": "화질",
+    "issue_subcategory": "밝기",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 화면 밝기 관련 커뮤니티 글로, 실외에서 화면이 잘 보이지 않는다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "밝기",
+      "화면 밝기",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.8,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-31T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0129",
+    "feedback_item_id": "FI-0129",
+    "product_id": "P-001",
+    "issue_category": "화질",
+    "issue_subcategory": "색 균일도",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 화면 색 균일도 관련 뉴스 기사로, 화면 일부만 색이 다르게 뜬다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "색 균일도",
+      "화면 색 균일도",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.78,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-01T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0130",
+    "feedback_item_id": "FI-0130",
+    "product_id": "P-001",
+    "issue_category": "화질",
+    "issue_subcategory": "플리커",
+    "sentiment": "neutral",
+    "summary": "루멘 폰 X 화면 깜빡임 관련 영상 게시물로, 저휘도 깜빡임 정도를 재 본 관찰이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "화질",
+      "플리커",
+      "화면 깜빡임",
+      "중립",
+      "루멘"
+    ],
+    "confidence_score": 0.86,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-01T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0131",
+    "feedback_item_id": "FI-0131",
+    "product_id": "P-001",
+    "issue_category": "성능",
+    "issue_subcategory": "응답 속도",
+    "sentiment": "neutral",
+    "summary": "루멘 폰 X 응답 속도 관련 뉴스 기사로, 업데이트 전후 반응 속도를 견준 관찰이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "성능",
+      "응답 속도",
+      "중립",
+      "루멘"
+    ],
+    "confidence_score": 0.73,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-31T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0132",
+    "feedback_item_id": "FI-0132",
+    "product_id": "P-002",
+    "issue_category": "화질",
+    "issue_subcategory": "밝기",
+    "sentiment": "positive",
+    "summary": "아틀라스 탭 11 화면 밝기 관련 영상 게시물로, 한낮 실외에서도 화면이 또렷하다는 평가가 담겨 있다. 감성은 긍정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "밝기",
+      "화면 밝기",
+      "긍정",
+      "아틀라스"
+    ],
+    "confidence_score": 0.95,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-01T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0133",
+    "feedback_item_id": "FI-0133",
+    "product_id": "P-002",
+    "issue_category": "화질",
+    "issue_subcategory": "번인",
+    "sentiment": "negative",
+    "summary": "아틀라스 탭 11 번인 관련 커뮤니티 글로, 오래 띄운 화면의 자국이 지워지지 않는다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "번인",
+      "부정",
+      "아틀라스"
+    ],
+    "confidence_score": 0.74,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-02T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0134",
+    "feedback_item_id": "FI-0134",
+    "product_id": "P-002",
+    "issue_category": "화질",
+    "issue_subcategory": "밝기",
+    "sentiment": "negative",
+    "summary": "아틀라스 탭 11 화면 밝기 관련 커뮤니티 글로, 실외에서 화면이 잘 보이지 않는다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "밝기",
+      "화면 밝기",
+      "부정",
+      "아틀라스"
+    ],
+    "confidence_score": 0.73,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-02T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0135",
+    "feedback_item_id": "FI-0135",
+    "product_id": "P-002",
+    "issue_category": "성능",
+    "issue_subcategory": "응답 속도",
+    "sentiment": "neutral",
+    "summary": "아틀라스 탭 11 응답 속도 관련 커뮤니티 글로, 업데이트 전후 반응 속도를 견준 관찰이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "성능",
+      "응답 속도",
+      "중립",
+      "아틀라스"
+    ],
+    "confidence_score": 0.94,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-01T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0136",
+    "feedback_item_id": "FI-0136",
+    "product_id": "P-003",
+    "issue_category": "화질",
+    "issue_subcategory": "색 균일도",
+    "sentiment": "positive",
+    "summary": "클리어뷰 모니터 27 화면 색 균일도 관련 뉴스 기사로, 화면 전체 색이 고르게 유지된다는 평가가 담겨 있다. 감성은 긍정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "색 균일도",
+      "화면 색 균일도",
+      "긍정",
+      "클리어뷰"
+    ],
+    "confidence_score": 0.97,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-01T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0137",
+    "feedback_item_id": "FI-0137",
+    "product_id": "P-003",
+    "issue_category": "화질",
+    "issue_subcategory": "색 정확도",
+    "sentiment": "negative",
+    "summary": "클리어뷰 모니터 27 색 정확도 관련 뉴스 기사로, 화면 색과 실제 색이 다르게 나온다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "색 정확도",
+      "부정",
+      "클리어뷰"
+    ],
+    "confidence_score": 0.84,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-07-31T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0138",
+    "feedback_item_id": "FI-0138",
+    "product_id": "P-003",
+    "issue_category": "성능",
+    "issue_subcategory": "응답 속도",
+    "sentiment": "neutral",
+    "summary": "클리어뷰 모니터 27 응답 속도 관련 영상 게시물로, 업데이트 전후 반응 속도를 견준 관찰이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "성능",
+      "응답 속도",
+      "중립",
+      "클리어뷰"
+    ],
+    "confidence_score": 0.9,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-01T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0139",
+    "feedback_item_id": "FI-0139",
+    "product_id": "P-001",
+    "issue_category": "소비전력",
+    "issue_subcategory": "기타",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 전력 소비 관련 뉴스 기사로, 같은 증상이 반복돼 불편하다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "소비전력",
+      "전력 소비",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.78,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-02T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0140",
+    "feedback_item_id": "FI-0140",
+    "product_id": "P-001",
+    "issue_category": "내구성",
+    "issue_subcategory": "기타",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 내구성 관련 커뮤니티 글로, 짧은 사용 기간에 마감이 상했다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "내구성",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.82,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-02T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0141",
+    "feedback_item_id": "FI-0141",
+    "product_id": "P-001",
+    "issue_category": "성능",
+    "issue_subcategory": "응답 속도",
+    "sentiment": "neutral",
+    "summary": "루멘 폰 X 응답 속도 관련 영상 게시물로, 업데이트 전후 반응 속도를 견준 관찰이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "성능",
+      "응답 속도",
+      "중립",
+      "루멘"
+    ],
+    "confidence_score": 0.9,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-01T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0142",
+    "feedback_item_id": "FI-0142",
+    "product_id": "P-002",
+    "issue_category": "성능",
+    "issue_subcategory": "기타",
+    "sentiment": "positive",
+    "summary": "아틀라스 탭 11 성능 관련 커뮤니티 글로, 무거운 작업에서도 속도가 유지된다는 평가가 담겨 있다. 감성은 긍정으로 분류했다.",
+    "keywords": [
+      "성능",
+      "긍정",
+      "아틀라스"
+    ],
+    "confidence_score": 0.78,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-03T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0143",
+    "feedback_item_id": "FI-0143",
+    "product_id": "P-002",
+    "issue_category": "소비전력",
+    "issue_subcategory": "배터리 소모",
+    "sentiment": "negative",
+    "summary": "아틀라스 탭 11 배터리 소모 관련 커뮤니티 글로, 완충 후 반나절도 못 간다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "소비전력",
+      "배터리 소모",
+      "부정",
+      "아틀라스"
+    ],
+    "confidence_score": 0.92,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-03T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0144",
+    "feedback_item_id": "FI-0144",
+    "product_id": "P-002",
+    "issue_category": "성능",
+    "issue_subcategory": "화면 잔상",
+    "sentiment": "neutral",
+    "summary": "아틀라스 탭 11 화면 잔상 관련 뉴스 기사로, 잔상이 몇 장면 남는지 재 본 관찰이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "성능",
+      "화면 잔상",
+      "중립",
+      "아틀라스"
+    ],
+    "confidence_score": 0.89,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-02T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0145",
+    "feedback_item_id": "FI-0145",
+    "product_id": "P-003",
+    "issue_category": "화질",
+    "issue_subcategory": "밝기",
+    "sentiment": "positive",
+    "summary": "클리어뷰 모니터 27 화면 밝기 관련 영상 게시물로, 한낮 실외에서도 화면이 또렷하다는 평가가 담겨 있다. 감성은 긍정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "밝기",
+      "화면 밝기",
+      "긍정",
+      "클리어뷰"
+    ],
+    "confidence_score": 0.74,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-01T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0146",
+    "feedback_item_id": "FI-0146",
+    "product_id": "P-001",
+    "issue_category": "발열",
+    "issue_subcategory": "기타",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 발열 관련 커뮤니티 글로, 짧은 사용에도 표면이 뜨거워진다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "발열",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.98,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-04T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0147",
+    "feedback_item_id": "FI-0147",
+    "product_id": "P-001",
+    "issue_category": "성능",
+    "issue_subcategory": "기타",
+    "sentiment": "neutral",
+    "summary": "루멘 폰 X 성능 관련 커뮤니티 글로, 업데이트 전후 체감 속도를 견준 관찰이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "성능",
+      "중립",
+      "루멘"
+    ],
+    "confidence_score": 0.62,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-04T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0148",
+    "feedback_item_id": "FI-0148",
+    "product_id": "P-002",
+    "issue_category": "가격",
+    "issue_subcategory": "기타",
+    "sentiment": "positive",
+    "summary": "아틀라스 탭 11 가격 관련 뉴스 기사로, 값에 견줘 구성이 아깝지 않다는 평가가 담겨 있다. 감성은 긍정으로 분류했다.",
+    "keywords": [
+      "가격",
+      "긍정",
+      "아틀라스"
+    ],
+    "confidence_score": 0.72,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-04T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0149",
+    "feedback_item_id": "FI-0149",
+    "product_id": "P-002",
+    "issue_category": "내구성",
+    "issue_subcategory": "번인",
+    "sentiment": "negative",
+    "summary": "아틀라스 탭 11 번인 관련 커뮤니티 글로, 오래 띄운 화면의 자국이 지워지지 않는다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "내구성",
+      "번인",
+      "부정",
+      "아틀라스"
+    ],
+    "confidence_score": 0.81,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-04T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0150",
+    "feedback_item_id": "FI-0150",
+    "product_id": "P-002",
+    "issue_category": "소비전력",
+    "issue_subcategory": "배터리 소모",
+    "sentiment": "neutral",
+    "summary": "아틀라스 탭 11 배터리 소모 관련 커뮤니티 글로, 하루 사용량이 조건마다 다르다는 관찰이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "소비전력",
+      "배터리 소모",
+      "중립",
+      "아틀라스"
+    ],
+    "confidence_score": 0.81,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-02T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0151",
+    "feedback_item_id": "FI-0151",
+    "product_id": "P-003",
+    "issue_category": "성능",
+    "issue_subcategory": "응답 속도",
+    "sentiment": "positive",
+    "summary": "클리어뷰 모니터 27 응답 속도 관련 커뮤니티 글로, 여러 작업에서도 반응이 밀리지 않는다는 평가가 담겨 있다. 감성은 긍정으로 분류했다.",
+    "keywords": [
+      "성능",
+      "응답 속도",
+      "긍정",
+      "클리어뷰"
+    ],
+    "confidence_score": 0.83,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-04T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0152",
+    "feedback_item_id": "FI-0152",
+    "product_id": "P-003",
+    "issue_category": "화질",
+    "issue_subcategory": "색 정확도",
+    "sentiment": "negative",
+    "summary": "클리어뷰 모니터 27 색 정확도 관련 커뮤니티 글로, 화면 색과 실제 색이 다르게 나온다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "색 정확도",
+      "부정",
+      "클리어뷰"
+    ],
+    "confidence_score": 0.76,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-02T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0153",
+    "feedback_item_id": "FI-0153",
+    "product_id": "P-003",
+    "issue_category": "소비전력",
+    "issue_subcategory": "기타",
+    "sentiment": "neutral",
+    "summary": "클리어뷰 모니터 27 전력 소비 관련 뉴스 기사로, 조건에 따라 결과가 갈린다는 관찰이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "소비전력",
+      "전력 소비",
+      "중립",
+      "클리어뷰"
+    ],
+    "confidence_score": 0.64,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-04T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0154",
+    "feedback_item_id": "FI-0154",
+    "product_id": "P-001",
+    "issue_category": "화질",
+    "issue_subcategory": "번인",
+    "sentiment": "positive",
+    "summary": "루멘 폰 X 번인 관련 커뮤니티 글로, 장시간 사용에도 자국이 남지 않는다는 평가가 담겨 있다. 감성은 긍정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "번인",
+      "긍정",
+      "루멘"
+    ],
+    "confidence_score": 0.89,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-03T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0155",
+    "feedback_item_id": "FI-0155",
+    "product_id": "P-001",
+    "issue_category": "발열",
+    "issue_subcategory": "배터리 소모",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 배터리 소모 관련 커뮤니티 글로, 완충 후 반나절도 못 간다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "발열",
+      "배터리 소모",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.75,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-04T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0156",
+    "feedback_item_id": "FI-0156",
+    "product_id": "P-001",
+    "issue_category": "발열",
+    "issue_subcategory": "기타",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 발열 관련 영상 게시물로, 짧은 사용에도 표면이 뜨거워진다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "발열",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.85,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-05T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0157",
+    "feedback_item_id": "FI-0157",
+    "product_id": "P-001",
+    "issue_category": "소비전력",
+    "issue_subcategory": "기타",
+    "sentiment": "neutral",
+    "summary": "루멘 폰 X 전력 소비 관련 뉴스 기사로, 조건에 따라 결과가 갈린다는 관찰이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "소비전력",
+      "전력 소비",
+      "중립",
+      "루멘"
+    ],
+    "confidence_score": 0.68,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-04T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0158",
+    "feedback_item_id": "FI-0158",
+    "product_id": "P-002",
+    "issue_category": "발열",
+    "issue_subcategory": "기타",
+    "sentiment": "negative",
+    "summary": "아틀라스 탭 11 발열 관련 커뮤니티 글로, 짧은 사용에도 표면이 뜨거워진다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "발열",
+      "부정",
+      "아틀라스"
+    ],
+    "confidence_score": 0.9,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-03T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0159",
+    "feedback_item_id": "FI-0159",
+    "product_id": "P-002",
+    "issue_category": "가격",
+    "issue_subcategory": "기타",
+    "sentiment": "neutral",
+    "summary": "아틀라스 탭 11 가격 관련 뉴스 기사로, 값이 오르내려 살 시점을 재는 관찰이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "가격",
+      "중립",
+      "아틀라스"
+    ],
+    "confidence_score": 0.69,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-05T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0160",
+    "feedback_item_id": "FI-0160",
+    "product_id": "P-003",
+    "issue_category": "가격",
+    "issue_subcategory": "기타",
+    "sentiment": "positive",
+    "summary": "클리어뷰 모니터 27 가격 관련 뉴스 기사로, 값에 견줘 구성이 아깝지 않다는 평가가 담겨 있다. 감성은 긍정으로 분류했다.",
+    "keywords": [
+      "가격",
+      "긍정",
+      "클리어뷰"
+    ],
+    "confidence_score": 0.94,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-03T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0161",
+    "feedback_item_id": "FI-0161",
+    "product_id": "P-003",
+    "issue_category": "성능",
+    "issue_subcategory": "응답 속도",
+    "sentiment": "negative",
+    "summary": "클리어뷰 모니터 27 응답 속도 관련 커뮤니티 글로, 조작에 대한 반응이 늦다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "성능",
+      "응답 속도",
+      "부정",
+      "클리어뷰"
+    ],
+    "confidence_score": 0.81,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-04T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0162",
+    "feedback_item_id": "FI-0162",
+    "product_id": "P-003",
+    "issue_category": "가격",
+    "issue_subcategory": "기타",
+    "sentiment": "neutral",
+    "summary": "클리어뷰 모니터 27 가격 관련 커뮤니티 글로, 값이 오르내려 살 시점을 재는 관찰이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "가격",
+      "중립",
+      "클리어뷰"
+    ],
+    "confidence_score": 0.64,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-05T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0163",
+    "feedback_item_id": "FI-0163",
+    "product_id": "P-001",
+    "issue_category": "성능",
+    "issue_subcategory": "기타",
+    "sentiment": "positive",
+    "summary": "루멘 폰 X 성능 관련 뉴스 기사로, 무거운 작업에서도 속도가 유지된다는 평가가 담겨 있다. 감성은 긍정으로 분류했다.",
+    "keywords": [
+      "성능",
+      "긍정",
+      "루멘"
+    ],
+    "confidence_score": 0.88,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-05T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0164",
+    "feedback_item_id": "FI-0164",
+    "product_id": "P-001",
+    "issue_category": "발열",
+    "issue_subcategory": "배터리 소모",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 배터리 소모 관련 뉴스 기사로, 완충 후 반나절도 못 간다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "발열",
+      "배터리 소모",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.75,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-06T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0165",
+    "feedback_item_id": "FI-0165",
+    "product_id": "P-001",
+    "issue_category": "발열",
+    "issue_subcategory": "기타",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 발열 관련 뉴스 기사로, 짧은 사용에도 표면이 뜨거워진다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "발열",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.8,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-05T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0166",
+    "feedback_item_id": "FI-0166",
+    "product_id": "P-001",
+    "issue_category": "소비전력",
+    "issue_subcategory": "배터리 소모",
+    "sentiment": "neutral",
+    "summary": "루멘 폰 X 배터리 소모 관련 뉴스 기사로, 하루 사용량이 조건마다 다르다는 관찰이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "소비전력",
+      "배터리 소모",
+      "중립",
+      "루멘"
+    ],
+    "confidence_score": 0.76,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-04T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0167",
+    "feedback_item_id": "FI-0167",
+    "product_id": "P-001",
+    "issue_category": "소비전력",
+    "issue_subcategory": "배터리 소모",
+    "sentiment": "neutral",
+    "summary": "루멘 폰 X 배터리 소모 관련 뉴스 기사로, 하루 사용량이 조건마다 다르다는 관찰이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "소비전력",
+      "배터리 소모",
+      "중립",
+      "루멘"
+    ],
+    "confidence_score": 0.88,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-06T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0168",
+    "feedback_item_id": "FI-0168",
+    "product_id": "P-002",
+    "issue_category": "가격",
+    "issue_subcategory": "기타",
+    "sentiment": "positive",
+    "summary": "아틀라스 탭 11 가격 관련 뉴스 기사로, 값에 견줘 구성이 아깝지 않다는 평가가 담겨 있다. 감성은 긍정으로 분류했다.",
+    "keywords": [
+      "가격",
+      "긍정",
+      "아틀라스"
+    ],
+    "confidence_score": 0.78,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-04T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0169",
+    "feedback_item_id": "FI-0169",
+    "product_id": "P-002",
+    "issue_category": "발열",
+    "issue_subcategory": "배터리 소모",
+    "sentiment": "negative",
+    "summary": "아틀라스 탭 11 배터리 소모 관련 커뮤니티 글로, 완충 후 반나절도 못 간다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "발열",
+      "배터리 소모",
+      "부정",
+      "아틀라스"
+    ],
+    "confidence_score": 0.97,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-05T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0170",
+    "feedback_item_id": "FI-0170",
+    "product_id": "P-002",
+    "issue_category": "내구성",
+    "issue_subcategory": "번인",
+    "sentiment": "neutral",
+    "summary": "아틀라스 탭 11 번인 관련 커뮤니티 글로, 자국이 생기는지 기간을 두고 지켜보는 기록이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "내구성",
+      "번인",
+      "중립",
+      "아틀라스"
+    ],
+    "confidence_score": 0.86,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-06T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0171",
+    "feedback_item_id": "FI-0171",
+    "product_id": "P-003",
+    "issue_category": "내구성",
+    "issue_subcategory": "기타",
+    "sentiment": "negative",
+    "summary": "클리어뷰 모니터 27 내구성 관련 뉴스 기사로, 짧은 사용 기간에 마감이 상했다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "내구성",
+      "부정",
+      "클리어뷰"
+    ],
+    "confidence_score": 0.98,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-05T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0172",
+    "feedback_item_id": "FI-0172",
+    "product_id": "P-003",
+    "issue_category": "기타",
+    "issue_subcategory": "기타",
+    "sentiment": "neutral",
+    "summary": "클리어뷰 모니터 27 사용성 관련 커뮤니티 글로, 쓰면서 알게 된 점을 정리한 기록이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "기타",
+      "사용성",
+      "중립",
+      "클리어뷰"
+    ],
+    "confidence_score": 0.82,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-05T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0173",
+    "feedback_item_id": "FI-0173",
+    "product_id": "P-001",
+    "issue_category": "발열",
+    "issue_subcategory": "배터리 소모",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 배터리 소모 관련 뉴스 기사로, 완충 후 반나절도 못 간다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "발열",
+      "배터리 소모",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.72,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-06T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0174",
+    "feedback_item_id": "FI-0174",
+    "product_id": "P-001",
+    "issue_category": "소비전력",
+    "issue_subcategory": "기타",
+    "sentiment": "neutral",
+    "summary": "루멘 폰 X 전력 소비 관련 커뮤니티 글로, 조건에 따라 결과가 갈린다는 관찰이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "소비전력",
+      "전력 소비",
+      "중립",
+      "루멘"
+    ],
+    "confidence_score": 0.92,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-06T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0175",
+    "feedback_item_id": "FI-0175",
+    "product_id": "P-001",
+    "issue_category": "내구성",
+    "issue_subcategory": "기타",
+    "sentiment": "neutral",
+    "summary": "루멘 폰 X 내구성 관련 커뮤니티 글로, 기간을 두고 마감 변화를 지켜보는 기록이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "내구성",
+      "중립",
+      "루멘"
+    ],
+    "confidence_score": 0.78,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-06T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0176",
+    "feedback_item_id": "FI-0176",
+    "product_id": "P-002",
+    "issue_category": "발열",
+    "issue_subcategory": "기타",
+    "sentiment": "negative",
+    "summary": "아틀라스 탭 11 발열 관련 영상 게시물로, 짧은 사용에도 표면이 뜨거워진다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "발열",
+      "부정",
+      "아틀라스"
+    ],
+    "confidence_score": 0.82,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-05T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0177",
+    "feedback_item_id": "FI-0177",
+    "product_id": "P-002",
+    "issue_category": "기타",
+    "issue_subcategory": "기타",
+    "sentiment": "neutral",
+    "summary": "아틀라스 탭 11 사용성 관련 커뮤니티 글로, 쓰면서 알게 된 점을 정리한 기록이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "기타",
+      "사용성",
+      "중립",
+      "아틀라스"
+    ],
+    "confidence_score": 0.98,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-07T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0178",
+    "feedback_item_id": "FI-0178",
+    "product_id": "P-003",
+    "issue_category": "가격",
+    "issue_subcategory": "기타",
+    "sentiment": "positive",
+    "summary": "클리어뷰 모니터 27 가격 관련 뉴스 기사로, 값에 견줘 구성이 아깝지 않다는 평가가 담겨 있다. 감성은 긍정으로 분류했다.",
+    "keywords": [
+      "가격",
+      "긍정",
+      "클리어뷰"
+    ],
+    "confidence_score": 0.94,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-06T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0179",
+    "feedback_item_id": "FI-0179",
+    "product_id": "P-003",
+    "issue_category": "내구성",
+    "issue_subcategory": "번인",
+    "sentiment": "negative",
+    "summary": "클리어뷰 모니터 27 번인 관련 영상 게시물로, 오래 띄운 화면의 자국이 지워지지 않는다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "내구성",
+      "번인",
+      "부정",
+      "클리어뷰"
+    ],
+    "confidence_score": 0.73,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-05T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0180",
+    "feedback_item_id": "FI-0180",
+    "product_id": "P-003",
+    "issue_category": "기타",
+    "issue_subcategory": "기타",
+    "sentiment": "neutral",
+    "summary": "클리어뷰 모니터 27 사용성 관련 뉴스 기사로, 쓰면서 알게 된 점을 정리한 기록이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "기타",
+      "사용성",
+      "중립",
+      "클리어뷰"
+    ],
+    "confidence_score": 0.62,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-05T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0181",
+    "feedback_item_id": "FI-0181",
+    "product_id": "P-001",
+    "issue_category": "성능",
+    "issue_subcategory": "응답 속도",
+    "sentiment": "positive",
+    "summary": "루멘 폰 X 응답 속도 관련 커뮤니티 글로, 여러 작업에서도 반응이 밀리지 않는다는 평가가 담겨 있다. 감성은 긍정으로 분류했다.",
+    "keywords": [
+      "성능",
+      "응답 속도",
+      "긍정",
+      "루멘"
+    ],
+    "confidence_score": 0.87,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-07T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0182",
+    "feedback_item_id": "FI-0182",
+    "product_id": "P-001",
+    "issue_category": "발열",
+    "issue_subcategory": "배터리 소모",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 배터리 소모 관련 영상 게시물로, 완충 후 반나절도 못 간다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "발열",
+      "배터리 소모",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.88,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-08T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0183",
+    "feedback_item_id": "FI-0183",
+    "product_id": "P-001",
+    "issue_category": "발열",
+    "issue_subcategory": "배터리 소모",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 배터리 소모 관련 뉴스 기사로, 완충 후 반나절도 못 간다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "발열",
+      "배터리 소모",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.78,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-08T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0184",
+    "feedback_item_id": "FI-0184",
+    "product_id": "P-001",
+    "issue_category": "내구성",
+    "issue_subcategory": "번인",
+    "sentiment": "neutral",
+    "summary": "루멘 폰 X 번인 관련 커뮤니티 글로, 자국이 생기는지 기간을 두고 지켜보는 기록이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "내구성",
+      "번인",
+      "중립",
+      "루멘"
+    ],
+    "confidence_score": 0.84,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-08T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0185",
+    "feedback_item_id": "FI-0185",
+    "product_id": "P-002",
+    "issue_category": "내구성",
+    "issue_subcategory": "기타",
+    "sentiment": "positive",
+    "summary": "아틀라스 탭 11 내구성 관련 커뮤니티 글로, 오래 써도 마감이 그대로라는 평가가 담겨 있다. 감성은 긍정으로 분류했다.",
+    "keywords": [
+      "내구성",
+      "긍정",
+      "아틀라스"
+    ],
+    "confidence_score": 0.91,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-06T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0186",
+    "feedback_item_id": "FI-0186",
+    "product_id": "P-002",
+    "issue_category": "발열",
+    "issue_subcategory": "기타",
+    "sentiment": "negative",
+    "summary": "아틀라스 탭 11 발열 관련 영상 게시물로, 짧은 사용에도 표면이 뜨거워진다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "발열",
+      "부정",
+      "아틀라스"
+    ],
+    "confidence_score": 0.81,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-07T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0187",
+    "feedback_item_id": "FI-0187",
+    "product_id": "P-002",
+    "issue_category": "기타",
+    "issue_subcategory": "기타",
+    "sentiment": "neutral",
+    "summary": "아틀라스 탭 11 사용성 관련 커뮤니티 글로, 쓰면서 알게 된 점을 정리한 기록이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "기타",
+      "사용성",
+      "중립",
+      "아틀라스"
+    ],
+    "confidence_score": 0.9,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-07T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0188",
+    "feedback_item_id": "FI-0188",
+    "product_id": "P-003",
+    "issue_category": "가격",
+    "issue_subcategory": "기타",
+    "sentiment": "positive",
+    "summary": "클리어뷰 모니터 27 가격 관련 뉴스 기사로, 값에 견줘 구성이 아깝지 않다는 평가가 담겨 있다. 감성은 긍정으로 분류했다.",
+    "keywords": [
+      "가격",
+      "긍정",
+      "클리어뷰"
+    ],
+    "confidence_score": 0.77,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-08T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0189",
+    "feedback_item_id": "FI-0189",
+    "product_id": "P-003",
+    "issue_category": "기타",
+    "issue_subcategory": "기타",
+    "sentiment": "neutral",
+    "summary": "클리어뷰 모니터 27 사용성 관련 커뮤니티 글로, 쓰면서 알게 된 점을 정리한 기록이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "기타",
+      "사용성",
+      "중립",
+      "클리어뷰"
+    ],
+    "confidence_score": 0.91,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-06T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0190",
+    "feedback_item_id": "FI-0190",
+    "product_id": "P-001",
+    "issue_category": "화질",
+    "issue_subcategory": "색 균일도",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 화면 색 균일도 관련 뉴스 기사로, 화면 일부만 색이 다르게 뜬다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "색 균일도",
+      "화면 색 균일도",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.85,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-07T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0191",
+    "feedback_item_id": "FI-0191",
+    "product_id": "P-001",
+    "issue_category": "화질",
+    "issue_subcategory": "색 균일도",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 화면 색 균일도 관련 커뮤니티 글로, 화면 일부만 색이 다르게 뜬다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "색 균일도",
+      "화면 색 균일도",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.89,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-07T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0192",
+    "feedback_item_id": "FI-0192",
+    "product_id": "P-001",
+    "issue_category": "화질",
+    "issue_subcategory": "색 균일도",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 화면 색 균일도 관련 커뮤니티 글로, 화면 일부만 색이 다르게 뜬다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "색 균일도",
+      "화면 색 균일도",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.87,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-07T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0193",
+    "feedback_item_id": "FI-0193",
+    "product_id": "P-001",
+    "issue_category": "화질",
+    "issue_subcategory": "색 균일도",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 화면 색 균일도 관련 커뮤니티 글로, 화면 일부만 색이 다르게 뜬다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "색 균일도",
+      "화면 색 균일도",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.88,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-07T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0194",
+    "feedback_item_id": "FI-0194",
+    "product_id": "P-001",
+    "issue_category": "화질",
+    "issue_subcategory": "색 균일도",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 화면 색 균일도 관련 커뮤니티 글로, 화면 일부만 색이 다르게 뜬다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "색 균일도",
+      "화면 색 균일도",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.9,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-09T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0195",
+    "feedback_item_id": "FI-0195",
+    "product_id": "P-001",
+    "issue_category": "화질",
+    "issue_subcategory": "색 균일도",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 화면 색 균일도 관련 커뮤니티 글로, 화면 일부만 색이 다르게 뜬다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "색 균일도",
+      "화면 색 균일도",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.89,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-07T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0196",
+    "feedback_item_id": "FI-0196",
+    "product_id": "P-001",
+    "issue_category": "화질",
+    "issue_subcategory": "색 균일도",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 화면 색 균일도 관련 커뮤니티 글로, 화면 일부만 색이 다르게 뜬다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "색 균일도",
+      "화면 색 균일도",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.83,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-08T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0197",
+    "feedback_item_id": "FI-0197",
+    "product_id": "P-001",
+    "issue_category": "화질",
+    "issue_subcategory": "색 균일도",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 화면 색 균일도 관련 커뮤니티 글로, 화면 일부만 색이 다르게 뜬다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "색 균일도",
+      "화면 색 균일도",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.85,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-09T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0198",
+    "feedback_item_id": "FI-0198",
+    "product_id": "P-001",
+    "issue_category": "화질",
+    "issue_subcategory": "색 균일도",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 화면 색 균일도 관련 커뮤니티 글로, 화면 일부만 색이 다르게 뜬다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "색 균일도",
+      "화면 색 균일도",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.75,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-08T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0199",
+    "feedback_item_id": "FI-0199",
+    "product_id": "P-001",
+    "issue_category": "화질",
+    "issue_subcategory": "색 균일도",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 화면 색 균일도 관련 커뮤니티 글로, 화면 일부만 색이 다르게 뜬다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "색 균일도",
+      "화면 색 균일도",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.93,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-07T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0200",
+    "feedback_item_id": "FI-0200",
+    "product_id": "P-001",
+    "issue_category": "화질",
+    "issue_subcategory": "색 균일도",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 화면 색 균일도 관련 영상 게시물로, 화면 일부만 색이 다르게 뜬다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "색 균일도",
+      "화면 색 균일도",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.85,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-08T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0201",
+    "feedback_item_id": "FI-0201",
+    "product_id": "P-001",
+    "issue_category": "성능",
+    "issue_subcategory": "기타",
+    "sentiment": "positive",
+    "summary": "루멘 폰 X 성능 관련 커뮤니티 글로, 무거운 작업에서도 속도가 유지된다는 평가가 담겨 있다. 감성은 긍정으로 분류했다.",
+    "keywords": [
+      "성능",
+      "긍정",
+      "루멘"
+    ],
+    "confidence_score": 0.88,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-07T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0202",
+    "feedback_item_id": "FI-0202",
+    "product_id": "P-001",
+    "issue_category": "화질",
+    "issue_subcategory": "색 정확도",
+    "sentiment": "neutral",
+    "summary": "루멘 폰 X 색 정확도 관련 커뮤니티 글로, 색 프로파일에 따른 차이를 재 본 관찰이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "화질",
+      "색 정확도",
+      "중립",
+      "루멘"
+    ],
+    "confidence_score": 0.82,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-08T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0203",
+    "feedback_item_id": "FI-0203",
+    "product_id": "P-001",
+    "issue_category": "화질",
+    "issue_subcategory": "번인",
+    "sentiment": "neutral",
+    "summary": "루멘 폰 X 번인 관련 영상 게시물로, 자국이 생기는지 기간을 두고 지켜보는 기록이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "화질",
+      "번인",
+      "중립",
+      "루멘"
+    ],
+    "confidence_score": 0.6,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-08T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0204",
+    "feedback_item_id": "FI-0204",
+    "product_id": "P-002",
+    "issue_category": "화질",
+    "issue_subcategory": "밝기",
+    "sentiment": "positive",
+    "summary": "아틀라스 탭 11 화면 밝기 관련 영상 게시물로, 한낮 실외에서도 화면이 또렷하다는 평가가 담겨 있다. 감성은 긍정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "밝기",
+      "화면 밝기",
+      "긍정",
+      "아틀라스"
+    ],
+    "confidence_score": 0.97,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-09T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0205",
+    "feedback_item_id": "FI-0205",
+    "product_id": "P-002",
+    "issue_category": "화질",
+    "issue_subcategory": "밝기",
+    "sentiment": "negative",
+    "summary": "아틀라스 탭 11 화면 밝기 관련 영상 게시물로, 실외에서 화면이 잘 보이지 않는다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "밝기",
+      "화면 밝기",
+      "부정",
+      "아틀라스"
+    ],
+    "confidence_score": 0.74,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-08T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0206",
+    "feedback_item_id": "FI-0206",
+    "product_id": "P-002",
+    "issue_category": "화질",
+    "issue_subcategory": "밝기",
+    "sentiment": "negative",
+    "summary": "아틀라스 탭 11 화면 밝기 관련 뉴스 기사로, 실외에서 화면이 잘 보이지 않는다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "밝기",
+      "화면 밝기",
+      "부정",
+      "아틀라스"
+    ],
+    "confidence_score": 0.88,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-09T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0207",
+    "feedback_item_id": "FI-0207",
+    "product_id": "P-002",
+    "issue_category": "화질",
+    "issue_subcategory": "색 균일도",
+    "sentiment": "neutral",
+    "summary": "아틀라스 탭 11 화면 색 균일도 관련 뉴스 기사로, 색 차이가 정상 범위인지 판단을 미룬 관찰이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "화질",
+      "색 균일도",
+      "화면 색 균일도",
+      "중립",
+      "아틀라스"
+    ],
+    "confidence_score": 0.87,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-08T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0208",
+    "feedback_item_id": "FI-0208",
+    "product_id": "P-003",
+    "issue_category": "화질",
+    "issue_subcategory": "색 정확도",
+    "sentiment": "negative",
+    "summary": "클리어뷰 모니터 27 색 정확도 관련 영상 게시물로, 화면 색과 실제 색이 다르게 나온다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "색 정확도",
+      "부정",
+      "클리어뷰"
+    ],
+    "confidence_score": 0.84,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-08T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0209",
+    "feedback_item_id": "FI-0209",
+    "product_id": "P-003",
+    "issue_category": "가격",
+    "issue_subcategory": "기타",
+    "sentiment": "neutral",
+    "summary": "클리어뷰 모니터 27 가격 관련 커뮤니티 글로, 값이 오르내려 살 시점을 재는 관찰이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "가격",
+      "중립",
+      "클리어뷰"
+    ],
+    "confidence_score": 0.9,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-09T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0210",
+    "feedback_item_id": "FI-0210",
+    "product_id": "P-001",
+    "issue_category": "화질",
+    "issue_subcategory": "색 균일도",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 화면 색 균일도 관련 뉴스 기사로, 화면 일부만 색이 다르게 뜬다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "색 균일도",
+      "화면 색 균일도",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.84,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-10T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0211",
+    "feedback_item_id": "FI-0211",
+    "product_id": "P-001",
+    "issue_category": "화질",
+    "issue_subcategory": "색 균일도",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 화면 색 균일도 관련 커뮤니티 글로, 화면 일부만 색이 다르게 뜬다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "색 균일도",
+      "화면 색 균일도",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.91,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-10T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0212",
+    "feedback_item_id": "FI-0212",
+    "product_id": "P-001",
+    "issue_category": "화질",
+    "issue_subcategory": "색 균일도",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 화면 색 균일도 관련 커뮤니티 글로, 화면 일부만 색이 다르게 뜬다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "색 균일도",
+      "화면 색 균일도",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.93,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-09T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0213",
+    "feedback_item_id": "FI-0213",
+    "product_id": "P-001",
+    "issue_category": "화질",
+    "issue_subcategory": "색 균일도",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 화면 색 균일도 관련 영상 게시물로, 화면 일부만 색이 다르게 뜬다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "색 균일도",
+      "화면 색 균일도",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.77,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-09T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0214",
+    "feedback_item_id": "FI-0214",
+    "product_id": "P-001",
+    "issue_category": "화질",
+    "issue_subcategory": "색 균일도",
+    "sentiment": "neutral",
+    "summary": "루멘 폰 X 화면 색 균일도 관련 뉴스 기사로, 색 차이가 정상 범위인지 판단을 미룬 관찰이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "화질",
+      "색 균일도",
+      "화면 색 균일도",
+      "중립",
+      "루멘"
+    ],
+    "confidence_score": 0.86,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-08T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0215",
+    "feedback_item_id": "FI-0215",
+    "product_id": "P-001",
+    "issue_category": "화질",
+    "issue_subcategory": "색 균일도",
+    "sentiment": "neutral",
+    "summary": "루멘 폰 X 화면 색 균일도 관련 커뮤니티 글로, 색 차이가 정상 범위인지 판단을 미룬 관찰이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "화질",
+      "색 균일도",
+      "화면 색 균일도",
+      "중립",
+      "루멘"
+    ],
+    "confidence_score": 0.81,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-10T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0216",
+    "feedback_item_id": "FI-0216",
+    "product_id": "P-002",
+    "issue_category": "화질",
+    "issue_subcategory": "색 균일도",
+    "sentiment": "positive",
+    "summary": "아틀라스 탭 11 화면 색 균일도 관련 영상 게시물로, 화면 전체 색이 고르게 유지된다는 평가가 담겨 있다. 감성은 긍정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "색 균일도",
+      "화면 색 균일도",
+      "긍정",
+      "아틀라스"
+    ],
+    "confidence_score": 0.9,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-08T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0217",
+    "feedback_item_id": "FI-0217",
+    "product_id": "P-002",
+    "issue_category": "화질",
+    "issue_subcategory": "플리커",
+    "sentiment": "negative",
+    "summary": "아틀라스 탭 11 화면 깜빡임 관련 뉴스 기사로, 낮은 밝기에서 화면이 떨려 눈이 피로하다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "플리커",
+      "화면 깜빡임",
+      "부정",
+      "아틀라스"
+    ],
+    "confidence_score": 0.96,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-10T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0218",
+    "feedback_item_id": "FI-0218",
+    "product_id": "P-002",
+    "issue_category": "화질",
+    "issue_subcategory": "색 정확도",
+    "sentiment": "neutral",
+    "summary": "아틀라스 탭 11 색 정확도 관련 커뮤니티 글로, 색 프로파일에 따른 차이를 재 본 관찰이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "화질",
+      "색 정확도",
+      "중립",
+      "아틀라스"
+    ],
+    "confidence_score": 0.88,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-09T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0219",
+    "feedback_item_id": "FI-0219",
+    "product_id": "P-002",
+    "issue_category": "성능",
+    "issue_subcategory": "화면 잔상",
+    "sentiment": "neutral",
+    "summary": "아틀라스 탭 11 화면 잔상 관련 커뮤니티 글로, 잔상이 몇 장면 남는지 재 본 관찰이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "성능",
+      "화면 잔상",
+      "중립",
+      "아틀라스"
+    ],
+    "confidence_score": 0.67,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-09T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0220",
+    "feedback_item_id": "FI-0220",
+    "product_id": "P-003",
+    "issue_category": "화질",
+    "issue_subcategory": "밝기",
+    "sentiment": "positive",
+    "summary": "클리어뷰 모니터 27 화면 밝기 관련 영상 게시물로, 한낮 실외에서도 화면이 또렷하다는 평가가 담겨 있다. 감성은 긍정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "밝기",
+      "화면 밝기",
+      "긍정",
+      "클리어뷰"
+    ],
+    "confidence_score": 0.95,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-10T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0221",
+    "feedback_item_id": "FI-0221",
+    "product_id": "P-003",
+    "issue_category": "화질",
+    "issue_subcategory": "색 균일도",
+    "sentiment": "negative",
+    "summary": "클리어뷰 모니터 27 화면 색 균일도 관련 영상 게시물로, 화면 일부만 색이 다르게 뜬다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "색 균일도",
+      "화면 색 균일도",
+      "부정",
+      "클리어뷰"
+    ],
+    "confidence_score": 0.94,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-10T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0222",
+    "feedback_item_id": "FI-0222",
+    "product_id": "P-003",
+    "issue_category": "화질",
+    "issue_subcategory": "플리커",
+    "sentiment": "negative",
+    "summary": "클리어뷰 모니터 27 화면 깜빡임 관련 뉴스 기사로, 낮은 밝기에서 화면이 떨려 눈이 피로하다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "플리커",
+      "화면 깜빡임",
+      "부정",
+      "클리어뷰"
+    ],
+    "confidence_score": 0.8,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-08T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0223",
+    "feedback_item_id": "FI-0223",
+    "product_id": "P-003",
+    "issue_category": "가격",
+    "issue_subcategory": "기타",
+    "sentiment": "neutral",
+    "summary": "클리어뷰 모니터 27 가격 관련 뉴스 기사로, 값이 오르내려 살 시점을 재는 관찰이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "가격",
+      "중립",
+      "클리어뷰"
+    ],
+    "confidence_score": 0.9,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-08T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0224",
+    "feedback_item_id": "FI-0224",
+    "product_id": "P-001",
+    "issue_category": "화질",
+    "issue_subcategory": "색 균일도",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 화면 색 균일도 관련 뉴스 기사로, 화면 일부만 색이 다르게 뜬다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "색 균일도",
+      "화면 색 균일도",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.77,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-10T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0225",
+    "feedback_item_id": "FI-0225",
+    "product_id": "P-001",
+    "issue_category": "화질",
+    "issue_subcategory": "색 균일도",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 화면 색 균일도 관련 뉴스 기사로, 화면 일부만 색이 다르게 뜬다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "색 균일도",
+      "화면 색 균일도",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.78,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-09T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0226",
+    "feedback_item_id": "FI-0226",
+    "product_id": "P-001",
+    "issue_category": "화질",
+    "issue_subcategory": "색 균일도",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 화면 색 균일도 관련 뉴스 기사로, 화면 일부만 색이 다르게 뜬다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "색 균일도",
+      "화면 색 균일도",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.97,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-09T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0227",
+    "feedback_item_id": "FI-0227",
+    "product_id": "P-001",
+    "issue_category": "화질",
+    "issue_subcategory": "색 균일도",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 화면 색 균일도 관련 커뮤니티 글로, 화면 일부만 색이 다르게 뜬다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "색 균일도",
+      "화면 색 균일도",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.86,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-09T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0228",
+    "feedback_item_id": "FI-0228",
+    "product_id": "P-001",
+    "issue_category": "화질",
+    "issue_subcategory": "색 균일도",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 화면 색 균일도 관련 뉴스 기사로, 화면 일부만 색이 다르게 뜬다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "색 균일도",
+      "화면 색 균일도",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.76,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-11T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0229",
+    "feedback_item_id": "FI-0229",
+    "product_id": "P-001",
+    "issue_category": "화질",
+    "issue_subcategory": "색 균일도",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 화면 색 균일도 관련 커뮤니티 글로, 화면 일부만 색이 다르게 뜬다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "색 균일도",
+      "화면 색 균일도",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.87,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-11T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0230",
+    "feedback_item_id": "FI-0230",
+    "product_id": "P-001",
+    "issue_category": "화질",
+    "issue_subcategory": "색 균일도",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 화면 색 균일도 관련 뉴스 기사로, 화면 일부만 색이 다르게 뜬다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "색 균일도",
+      "화면 색 균일도",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.98,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-11T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0231",
+    "feedback_item_id": "FI-0231",
+    "product_id": "P-001",
+    "issue_category": "화질",
+    "issue_subcategory": "색 균일도",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 화면 색 균일도 관련 뉴스 기사로, 화면 일부만 색이 다르게 뜬다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "색 균일도",
+      "화면 색 균일도",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.78,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-11T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0232",
+    "feedback_item_id": "FI-0232",
+    "product_id": "P-001",
+    "issue_category": "화질",
+    "issue_subcategory": "색 균일도",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 화면 색 균일도 관련 커뮤니티 글로, 화면 일부만 색이 다르게 뜬다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "색 균일도",
+      "화면 색 균일도",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.96,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-09T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0233",
+    "feedback_item_id": "FI-0233",
+    "product_id": "P-001",
+    "issue_category": "화질",
+    "issue_subcategory": "밝기",
+    "sentiment": "neutral",
+    "summary": "루멘 폰 X 화면 밝기 관련 뉴스 기사로, 표시된 최대 밝기와 실제 값을 견준 관찰이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "화질",
+      "밝기",
+      "화면 밝기",
+      "중립",
+      "루멘"
+    ],
+    "confidence_score": 0.67,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-09T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0234",
+    "feedback_item_id": "FI-0234",
+    "product_id": "P-001",
+    "issue_category": "성능",
+    "issue_subcategory": "화면 잔상",
+    "sentiment": "neutral",
+    "summary": "루멘 폰 X 화면 잔상 관련 커뮤니티 글로, 잔상이 몇 장면 남는지 재 본 관찰이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "성능",
+      "화면 잔상",
+      "중립",
+      "루멘"
+    ],
+    "confidence_score": 0.98,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-10T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0235",
+    "feedback_item_id": "FI-0235",
+    "product_id": "P-002",
+    "issue_category": "성능",
+    "issue_subcategory": "응답 속도",
+    "sentiment": "positive",
+    "summary": "아틀라스 탭 11 응답 속도 관련 뉴스 기사로, 여러 작업에서도 반응이 밀리지 않는다는 평가가 담겨 있다. 감성은 긍정으로 분류했다.",
+    "keywords": [
+      "성능",
+      "응답 속도",
+      "긍정",
+      "아틀라스"
+    ],
+    "confidence_score": 0.94,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-09T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0236",
+    "feedback_item_id": "FI-0236",
+    "product_id": "P-002",
+    "issue_category": "화질",
+    "issue_subcategory": "색 정확도",
+    "sentiment": "negative",
+    "summary": "아틀라스 탭 11 색 정확도 관련 뉴스 기사로, 화면 색과 실제 색이 다르게 나온다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "색 정확도",
+      "부정",
+      "아틀라스"
+    ],
+    "confidence_score": 0.76,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-10T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0237",
+    "feedback_item_id": "FI-0237",
+    "product_id": "P-002",
+    "issue_category": "성능",
+    "issue_subcategory": "응답 속도",
+    "sentiment": "neutral",
+    "summary": "아틀라스 탭 11 응답 속도 관련 커뮤니티 글로, 업데이트 전후 반응 속도를 견준 관찰이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "성능",
+      "응답 속도",
+      "중립",
+      "아틀라스"
+    ],
+    "confidence_score": 0.97,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-11T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0238",
+    "feedback_item_id": "FI-0238",
+    "product_id": "P-002",
+    "issue_category": "성능",
+    "issue_subcategory": "응답 속도",
+    "sentiment": "neutral",
+    "summary": "아틀라스 탭 11 응답 속도 관련 뉴스 기사로, 업데이트 전후 반응 속도를 견준 관찰이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "성능",
+      "응답 속도",
+      "중립",
+      "아틀라스"
+    ],
+    "confidence_score": 0.88,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-09T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0239",
+    "feedback_item_id": "FI-0239",
+    "product_id": "P-003",
+    "issue_category": "화질",
+    "issue_subcategory": "색 정확도",
+    "sentiment": "positive",
+    "summary": "클리어뷰 모니터 27 색 정확도 관련 커뮤니티 글로, 기본 설정에서도 색 차이가 적다는 평가가 담겨 있다. 감성은 긍정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "색 정확도",
+      "긍정",
+      "클리어뷰"
+    ],
+    "confidence_score": 0.81,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-10T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0240",
+    "feedback_item_id": "FI-0240",
+    "product_id": "P-003",
+    "issue_category": "화질",
+    "issue_subcategory": "색 균일도",
+    "sentiment": "negative",
+    "summary": "클리어뷰 모니터 27 화면 색 균일도 관련 커뮤니티 글로, 화면 일부만 색이 다르게 뜬다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "색 균일도",
+      "화면 색 균일도",
+      "부정",
+      "클리어뷰"
+    ],
+    "confidence_score": 0.86,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-10T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0241",
+    "feedback_item_id": "FI-0241",
+    "product_id": "P-003",
+    "issue_category": "가격",
+    "issue_subcategory": "기타",
+    "sentiment": "neutral",
+    "summary": "클리어뷰 모니터 27 가격 관련 커뮤니티 글로, 값이 오르내려 살 시점을 재는 관찰이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "가격",
+      "중립",
+      "클리어뷰"
+    ],
+    "confidence_score": 0.62,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-11T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0242",
+    "feedback_item_id": "FI-0242",
+    "product_id": "P-001",
+    "issue_category": "화질",
+    "issue_subcategory": "색 균일도",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 화면 색 균일도 관련 커뮤니티 글로, 화면 일부만 색이 다르게 뜬다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "색 균일도",
+      "화면 색 균일도",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.79,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-12T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0243",
+    "feedback_item_id": "FI-0243",
+    "product_id": "P-001",
+    "issue_category": "화질",
+    "issue_subcategory": "색 균일도",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 화면 색 균일도 관련 커뮤니티 글로, 화면 일부만 색이 다르게 뜬다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "색 균일도",
+      "화면 색 균일도",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.77,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-12T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0244",
+    "feedback_item_id": "FI-0244",
+    "product_id": "P-001",
+    "issue_category": "화질",
+    "issue_subcategory": "색 균일도",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 화면 색 균일도 관련 뉴스 기사로, 화면 일부만 색이 다르게 뜬다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "색 균일도",
+      "화면 색 균일도",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.84,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-11T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0245",
+    "feedback_item_id": "FI-0245",
+    "product_id": "P-001",
+    "issue_category": "화질",
+    "issue_subcategory": "색 균일도",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 화면 색 균일도 관련 커뮤니티 글로, 화면 일부만 색이 다르게 뜬다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "색 균일도",
+      "화면 색 균일도",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.94,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-10T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0246",
+    "feedback_item_id": "FI-0246",
+    "product_id": "P-001",
+    "issue_category": "화질",
+    "issue_subcategory": "색 균일도",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 화면 색 균일도 관련 커뮤니티 글로, 화면 일부만 색이 다르게 뜬다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "색 균일도",
+      "화면 색 균일도",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.91,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-11T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0247",
+    "feedback_item_id": "FI-0247",
+    "product_id": "P-001",
+    "issue_category": "성능",
+    "issue_subcategory": "화면 잔상",
+    "sentiment": "positive",
+    "summary": "루멘 폰 X 화면 잔상 관련 커뮤니티 글로, 빠른 화면에서도 잔상이 적다는 평가가 담겨 있다. 감성은 긍정으로 분류했다.",
+    "keywords": [
+      "성능",
+      "화면 잔상",
+      "긍정",
+      "루멘"
+    ],
+    "confidence_score": 0.9,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-10T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0248",
+    "feedback_item_id": "FI-0248",
+    "product_id": "P-001",
+    "issue_category": "성능",
+    "issue_subcategory": "기타",
+    "sentiment": "neutral",
+    "summary": "루멘 폰 X 성능 관련 커뮤니티 글로, 업데이트 전후 체감 속도를 견준 관찰이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "성능",
+      "중립",
+      "루멘"
+    ],
+    "confidence_score": 0.61,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-11T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0249",
+    "feedback_item_id": "FI-0249",
+    "product_id": "P-001",
+    "issue_category": "성능",
+    "issue_subcategory": "응답 속도",
+    "sentiment": "neutral",
+    "summary": "루멘 폰 X 응답 속도 관련 커뮤니티 글로, 업데이트 전후 반응 속도를 견준 관찰이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "성능",
+      "응답 속도",
+      "중립",
+      "루멘"
+    ],
+    "confidence_score": 0.84,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-12T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0250",
+    "feedback_item_id": "FI-0250",
+    "product_id": "P-002",
+    "issue_category": "성능",
+    "issue_subcategory": "응답 속도",
+    "sentiment": "positive",
+    "summary": "아틀라스 탭 11 응답 속도 관련 뉴스 기사로, 여러 작업에서도 반응이 밀리지 않는다는 평가가 담겨 있다. 감성은 긍정으로 분류했다.",
+    "keywords": [
+      "성능",
+      "응답 속도",
+      "긍정",
+      "아틀라스"
+    ],
+    "confidence_score": 0.85,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-11T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0251",
+    "feedback_item_id": "FI-0251",
+    "product_id": "P-002",
+    "issue_category": "화질",
+    "issue_subcategory": "색 균일도",
+    "sentiment": "negative",
+    "summary": "아틀라스 탭 11 화면 색 균일도 관련 커뮤니티 글로, 화면 일부만 색이 다르게 뜬다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "색 균일도",
+      "화면 색 균일도",
+      "부정",
+      "아틀라스"
+    ],
+    "confidence_score": 0.82,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-10T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0252",
+    "feedback_item_id": "FI-0252",
+    "product_id": "P-002",
+    "issue_category": "성능",
+    "issue_subcategory": "기타",
+    "sentiment": "negative",
+    "summary": "아틀라스 탭 11 성능 관련 커뮤니티 글로, 무거운 작업에서 눈에 띄게 느려진다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "성능",
+      "부정",
+      "아틀라스"
+    ],
+    "confidence_score": 0.75,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-12T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0253",
+    "feedback_item_id": "FI-0253",
+    "product_id": "P-002",
+    "issue_category": "소비전력",
+    "issue_subcategory": "배터리 소모",
+    "sentiment": "neutral",
+    "summary": "아틀라스 탭 11 배터리 소모 관련 커뮤니티 글로, 하루 사용량이 조건마다 다르다는 관찰이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "소비전력",
+      "배터리 소모",
+      "중립",
+      "아틀라스"
+    ],
+    "confidence_score": 0.64,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-11T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0254",
+    "feedback_item_id": "FI-0254",
+    "product_id": "P-003",
+    "issue_category": "화질",
+    "issue_subcategory": "번인",
+    "sentiment": "positive",
+    "summary": "클리어뷰 모니터 27 번인 관련 뉴스 기사로, 장시간 사용에도 자국이 남지 않는다는 평가가 담겨 있다. 감성은 긍정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "번인",
+      "긍정",
+      "클리어뷰"
+    ],
+    "confidence_score": 0.93,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-11T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0255",
+    "feedback_item_id": "FI-0255",
+    "product_id": "P-003",
+    "issue_category": "화질",
+    "issue_subcategory": "색 정확도",
+    "sentiment": "negative",
+    "summary": "클리어뷰 모니터 27 색 정확도 관련 뉴스 기사로, 화면 색과 실제 색이 다르게 나온다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "색 정확도",
+      "부정",
+      "클리어뷰"
+    ],
+    "confidence_score": 0.9,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-12T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0256",
+    "feedback_item_id": "FI-0256",
+    "product_id": "P-003",
+    "issue_category": "가격",
+    "issue_subcategory": "기타",
+    "sentiment": "neutral",
+    "summary": "클리어뷰 모니터 27 가격 관련 뉴스 기사로, 값이 오르내려 살 시점을 재는 관찰이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "가격",
+      "중립",
+      "클리어뷰"
+    ],
+    "confidence_score": 0.79,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-11T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0257",
+    "feedback_item_id": "FI-0257",
+    "product_id": "P-001",
+    "issue_category": "화질",
+    "issue_subcategory": "색 균일도",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 화면 색 균일도 관련 뉴스 기사로, 화면 일부만 색이 다르게 뜬다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "색 균일도",
+      "화면 색 균일도",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.76,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-12T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0258",
+    "feedback_item_id": "FI-0258",
+    "product_id": "P-001",
+    "issue_category": "화질",
+    "issue_subcategory": "색 균일도",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 화면 색 균일도 관련 뉴스 기사로, 화면 일부만 색이 다르게 뜬다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "색 균일도",
+      "화면 색 균일도",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.93,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-12T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0259",
+    "feedback_item_id": "FI-0259",
+    "product_id": "P-001",
+    "issue_category": "화질",
+    "issue_subcategory": "색 균일도",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 화면 색 균일도 관련 커뮤니티 글로, 화면 일부만 색이 다르게 뜬다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "색 균일도",
+      "화면 색 균일도",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.73,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-12T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0260",
+    "feedback_item_id": "FI-0260",
+    "product_id": "P-001",
+    "issue_category": "화질",
+    "issue_subcategory": "색 균일도",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 화면 색 균일도 관련 뉴스 기사로, 화면 일부만 색이 다르게 뜬다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "색 균일도",
+      "화면 색 균일도",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.82,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-12T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0261",
+    "feedback_item_id": "FI-0261",
+    "product_id": "P-001",
+    "issue_category": "화질",
+    "issue_subcategory": "색 균일도",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 화면 색 균일도 관련 영상 게시물로, 화면 일부만 색이 다르게 뜬다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "색 균일도",
+      "화면 색 균일도",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.88,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-12T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0262",
+    "feedback_item_id": "FI-0262",
+    "product_id": "P-001",
+    "issue_category": "성능",
+    "issue_subcategory": "응답 속도",
+    "sentiment": "neutral",
+    "summary": "루멘 폰 X 응답 속도 관련 뉴스 기사로, 업데이트 전후 반응 속도를 견준 관찰이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "성능",
+      "응답 속도",
+      "중립",
+      "루멘"
+    ],
+    "confidence_score": 0.75,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-12T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0263",
+    "feedback_item_id": "FI-0263",
+    "product_id": "P-001",
+    "issue_category": "성능",
+    "issue_subcategory": "화면 잔상",
+    "sentiment": "neutral",
+    "summary": "루멘 폰 X 화면 잔상 관련 커뮤니티 글로, 잔상이 몇 장면 남는지 재 본 관찰이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "성능",
+      "화면 잔상",
+      "중립",
+      "루멘"
+    ],
+    "confidence_score": 0.8,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-11T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0264",
+    "feedback_item_id": "FI-0264",
+    "product_id": "P-001",
+    "issue_category": "성능",
+    "issue_subcategory": "응답 속도",
+    "sentiment": "neutral",
+    "summary": "루멘 폰 X 응답 속도 관련 커뮤니티 글로, 업데이트 전후 반응 속도를 견준 관찰이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "성능",
+      "응답 속도",
+      "중립",
+      "루멘"
+    ],
+    "confidence_score": 0.68,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-11T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0265",
+    "feedback_item_id": "FI-0265",
+    "product_id": "P-002",
+    "issue_category": "성능",
+    "issue_subcategory": "화면 잔상",
+    "sentiment": "positive",
+    "summary": "아틀라스 탭 11 화면 잔상 관련 뉴스 기사로, 빠른 화면에서도 잔상이 적다는 평가가 담겨 있다. 감성은 긍정으로 분류했다.",
+    "keywords": [
+      "성능",
+      "화면 잔상",
+      "긍정",
+      "아틀라스"
+    ],
+    "confidence_score": 0.75,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-13T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0266",
+    "feedback_item_id": "FI-0266",
+    "product_id": "P-002",
+    "issue_category": "성능",
+    "issue_subcategory": "응답 속도",
+    "sentiment": "negative",
+    "summary": "아틀라스 탭 11 응답 속도 관련 커뮤니티 글로, 조작에 대한 반응이 늦다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "성능",
+      "응답 속도",
+      "부정",
+      "아틀라스"
+    ],
+    "confidence_score": 0.76,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-13T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0267",
+    "feedback_item_id": "FI-0267",
+    "product_id": "P-002",
+    "issue_category": "소비전력",
+    "issue_subcategory": "배터리 소모",
+    "sentiment": "neutral",
+    "summary": "아틀라스 탭 11 배터리 소모 관련 커뮤니티 글로, 하루 사용량이 조건마다 다르다는 관찰이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "소비전력",
+      "배터리 소모",
+      "중립",
+      "아틀라스"
+    ],
+    "confidence_score": 0.88,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-13T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0268",
+    "feedback_item_id": "FI-0268",
+    "product_id": "P-002",
+    "issue_category": "소비전력",
+    "issue_subcategory": "기타",
+    "sentiment": "neutral",
+    "summary": "아틀라스 탭 11 전력 소비 관련 커뮤니티 글로, 조건에 따라 결과가 갈린다는 관찰이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "소비전력",
+      "전력 소비",
+      "중립",
+      "아틀라스"
+    ],
+    "confidence_score": 0.84,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-11T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0269",
+    "feedback_item_id": "FI-0269",
+    "product_id": "P-003",
+    "issue_category": "화질",
+    "issue_subcategory": "밝기",
+    "sentiment": "negative",
+    "summary": "클리어뷰 모니터 27 화면 밝기 관련 커뮤니티 글로, 실외에서 화면이 잘 보이지 않는다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "밝기",
+      "화면 밝기",
+      "부정",
+      "클리어뷰"
+    ],
+    "confidence_score": 0.96,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-12T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0270",
+    "feedback_item_id": "FI-0270",
+    "product_id": "P-003",
+    "issue_category": "기타",
+    "issue_subcategory": "기타",
+    "sentiment": "neutral",
+    "summary": "클리어뷰 모니터 27 사용성 관련 커뮤니티 글로, 쓰면서 알게 된 점을 정리한 기록이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "기타",
+      "사용성",
+      "중립",
+      "클리어뷰"
+    ],
+    "confidence_score": 0.74,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-13T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0271",
+    "feedback_item_id": "FI-0271",
+    "product_id": "P-001",
+    "issue_category": "화질",
+    "issue_subcategory": "색 균일도",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 화면 색 균일도 관련 뉴스 기사로, 화면 일부만 색이 다르게 뜬다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "색 균일도",
+      "화면 색 균일도",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.83,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-13T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0272",
+    "feedback_item_id": "FI-0272",
+    "product_id": "P-001",
+    "issue_category": "화질",
+    "issue_subcategory": "색 균일도",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 화면 색 균일도 관련 커뮤니티 글로, 화면 일부만 색이 다르게 뜬다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "색 균일도",
+      "화면 색 균일도",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.81,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-12T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0273",
+    "feedback_item_id": "FI-0273",
+    "product_id": "P-001",
+    "issue_category": "화질",
+    "issue_subcategory": "색 균일도",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 화면 색 균일도 관련 커뮤니티 글로, 화면 일부만 색이 다르게 뜬다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "색 균일도",
+      "화면 색 균일도",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.76,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-12T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0274",
+    "feedback_item_id": "FI-0274",
+    "product_id": "P-001",
+    "issue_category": "화질",
+    "issue_subcategory": "색 균일도",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 화면 색 균일도 관련 커뮤니티 글로, 화면 일부만 색이 다르게 뜬다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "색 균일도",
+      "화면 색 균일도",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.82,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-14T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0275",
+    "feedback_item_id": "FI-0275",
+    "product_id": "P-001",
+    "issue_category": "성능",
+    "issue_subcategory": "화면 잔상",
+    "sentiment": "positive",
+    "summary": "루멘 폰 X 화면 잔상 관련 커뮤니티 글로, 빠른 화면에서도 잔상이 적다는 평가가 담겨 있다. 감성은 긍정으로 분류했다.",
+    "keywords": [
+      "성능",
+      "화면 잔상",
+      "긍정",
+      "루멘"
+    ],
+    "confidence_score": 0.82,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-12T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0276",
+    "feedback_item_id": "FI-0276",
+    "product_id": "P-001",
+    "issue_category": "성능",
+    "issue_subcategory": "화면 잔상",
+    "sentiment": "neutral",
+    "summary": "루멘 폰 X 화면 잔상 관련 뉴스 기사로, 잔상이 몇 장면 남는지 재 본 관찰이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "성능",
+      "화면 잔상",
+      "중립",
+      "루멘"
+    ],
+    "confidence_score": 0.75,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-13T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0277",
+    "feedback_item_id": "FI-0277",
+    "product_id": "P-001",
+    "issue_category": "소비전력",
+    "issue_subcategory": "기타",
+    "sentiment": "neutral",
+    "summary": "루멘 폰 X 전력 소비 관련 커뮤니티 글로, 조건에 따라 결과가 갈린다는 관찰이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "소비전력",
+      "전력 소비",
+      "중립",
+      "루멘"
+    ],
+    "confidence_score": 0.72,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-13T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0278",
+    "feedback_item_id": "FI-0278",
+    "product_id": "P-002",
+    "issue_category": "성능",
+    "issue_subcategory": "기타",
+    "sentiment": "positive",
+    "summary": "아틀라스 탭 11 성능 관련 영상 게시물로, 무거운 작업에서도 속도가 유지된다는 평가가 담겨 있다. 감성은 긍정으로 분류했다.",
+    "keywords": [
+      "성능",
+      "긍정",
+      "아틀라스"
+    ],
+    "confidence_score": 0.79,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-12T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0279",
+    "feedback_item_id": "FI-0279",
+    "product_id": "P-002",
+    "issue_category": "성능",
+    "issue_subcategory": "화면 잔상",
+    "sentiment": "negative",
+    "summary": "아틀라스 탭 11 화면 잔상 관련 영상 게시물로, 빠른 화면에서 잔상이 끌린다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "성능",
+      "화면 잔상",
+      "부정",
+      "아틀라스"
+    ],
+    "confidence_score": 0.82,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-14T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0280",
+    "feedback_item_id": "FI-0280",
+    "product_id": "P-002",
+    "issue_category": "발열",
+    "issue_subcategory": "배터리 소모",
+    "sentiment": "negative",
+    "summary": "아틀라스 탭 11 배터리 소모 관련 커뮤니티 글로, 완충 후 반나절도 못 간다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "발열",
+      "배터리 소모",
+      "부정",
+      "아틀라스"
+    ],
+    "confidence_score": 0.83,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-14T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0281",
+    "feedback_item_id": "FI-0281",
+    "product_id": "P-002",
+    "issue_category": "소비전력",
+    "issue_subcategory": "배터리 소모",
+    "sentiment": "neutral",
+    "summary": "아틀라스 탭 11 배터리 소모 관련 커뮤니티 글로, 하루 사용량이 조건마다 다르다는 관찰이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "소비전력",
+      "배터리 소모",
+      "중립",
+      "아틀라스"
+    ],
+    "confidence_score": 0.7,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-14T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0282",
+    "feedback_item_id": "FI-0282",
+    "product_id": "P-003",
+    "issue_category": "화질",
+    "issue_subcategory": "번인",
+    "sentiment": "positive",
+    "summary": "클리어뷰 모니터 27 번인 관련 커뮤니티 글로, 장시간 사용에도 자국이 남지 않는다는 평가가 담겨 있다. 감성은 긍정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "번인",
+      "긍정",
+      "클리어뷰"
+    ],
+    "confidence_score": 0.9,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-13T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0283",
+    "feedback_item_id": "FI-0283",
+    "product_id": "P-003",
+    "issue_category": "화질",
+    "issue_subcategory": "밝기",
+    "sentiment": "negative",
+    "summary": "클리어뷰 모니터 27 화면 밝기 관련 영상 게시물로, 실외에서 화면이 잘 보이지 않는다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "밝기",
+      "화면 밝기",
+      "부정",
+      "클리어뷰"
+    ],
+    "confidence_score": 0.81,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-13T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0284",
+    "feedback_item_id": "FI-0284",
+    "product_id": "P-003",
+    "issue_category": "기타",
+    "issue_subcategory": "기타",
+    "sentiment": "neutral",
+    "summary": "클리어뷰 모니터 27 사용성 관련 커뮤니티 글로, 쓰면서 알게 된 점을 정리한 기록이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "기타",
+      "사용성",
+      "중립",
+      "클리어뷰"
+    ],
+    "confidence_score": 0.6,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-13T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0285",
+    "feedback_item_id": "FI-0285",
+    "product_id": "P-001",
+    "issue_category": "성능",
+    "issue_subcategory": "기타",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 성능 관련 영상 게시물로, 무거운 작업에서 눈에 띄게 느려진다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "성능",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.77,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-15T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0286",
+    "feedback_item_id": "FI-0286",
+    "product_id": "P-001",
+    "issue_category": "성능",
+    "issue_subcategory": "화면 잔상",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 화면 잔상 관련 커뮤니티 글로, 빠른 화면에서 잔상이 끌린다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "성능",
+      "화면 잔상",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.98,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-14T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0287",
+    "feedback_item_id": "FI-0287",
+    "product_id": "P-001",
+    "issue_category": "성능",
+    "issue_subcategory": "화면 잔상",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 화면 잔상 관련 뉴스 기사로, 빠른 화면에서 잔상이 끌린다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "성능",
+      "화면 잔상",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.89,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-15T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0288",
+    "feedback_item_id": "FI-0288",
+    "product_id": "P-001",
+    "issue_category": "발열",
+    "issue_subcategory": "배터리 소모",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 배터리 소모 관련 뉴스 기사로, 완충 후 반나절도 못 간다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "발열",
+      "배터리 소모",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.97,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-14T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0289",
+    "feedback_item_id": "FI-0289",
+    "product_id": "P-001",
+    "issue_category": "발열",
+    "issue_subcategory": "기타",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 발열 관련 뉴스 기사로, 짧은 사용에도 표면이 뜨거워진다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "발열",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.87,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-15T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0290",
+    "feedback_item_id": "FI-0290",
+    "product_id": "P-001",
+    "issue_category": "발열",
+    "issue_subcategory": "배터리 소모",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 배터리 소모 관련 커뮤니티 글로, 완충 후 반나절도 못 간다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "발열",
+      "배터리 소모",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.93,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-13T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0291",
+    "feedback_item_id": "FI-0291",
+    "product_id": "P-001",
+    "issue_category": "발열",
+    "issue_subcategory": "배터리 소모",
+    "sentiment": "negative",
+    "summary": "루멘 폰 X 배터리 소모 관련 영상 게시물로, 완충 후 반나절도 못 간다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "발열",
+      "배터리 소모",
+      "부정",
+      "루멘"
+    ],
+    "confidence_score": 0.84,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-14T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0292",
+    "feedback_item_id": "FI-0292",
+    "product_id": "P-001",
+    "issue_category": "발열",
+    "issue_subcategory": "기타",
+    "sentiment": "neutral",
+    "summary": "루멘 폰 X 발열 관련 커뮤니티 글로, 반복 작업 중 표면 온도를 재 본 관찰이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "발열",
+      "중립",
+      "루멘"
+    ],
+    "confidence_score": 0.86,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-13T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0293",
+    "feedback_item_id": "FI-0293",
+    "product_id": "P-001",
+    "issue_category": "발열",
+    "issue_subcategory": "기타",
+    "sentiment": "neutral",
+    "summary": "루멘 폰 X 발열 관련 뉴스 기사로, 반복 작업 중 표면 온도를 재 본 관찰이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "발열",
+      "중립",
+      "루멘"
+    ],
+    "confidence_score": 0.97,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-15T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0294",
+    "feedback_item_id": "FI-0294",
+    "product_id": "P-002",
+    "issue_category": "성능",
+    "issue_subcategory": "기타",
+    "sentiment": "positive",
+    "summary": "아틀라스 탭 11 성능 관련 커뮤니티 글로, 무거운 작업에서도 속도가 유지된다는 평가가 담겨 있다. 감성은 긍정으로 분류했다.",
+    "keywords": [
+      "성능",
+      "긍정",
+      "아틀라스"
+    ],
+    "confidence_score": 0.72,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-13T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0295",
+    "feedback_item_id": "FI-0295",
+    "product_id": "P-002",
+    "issue_category": "발열",
+    "issue_subcategory": "기타",
+    "sentiment": "negative",
+    "summary": "아틀라스 탭 11 발열 관련 영상 게시물로, 짧은 사용에도 표면이 뜨거워진다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "발열",
+      "부정",
+      "아틀라스"
+    ],
+    "confidence_score": 0.97,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-13T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0296",
+    "feedback_item_id": "FI-0296",
+    "product_id": "P-002",
+    "issue_category": "발열",
+    "issue_subcategory": "배터리 소모",
+    "sentiment": "negative",
+    "summary": "아틀라스 탭 11 배터리 소모 관련 뉴스 기사로, 완충 후 반나절도 못 간다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "발열",
+      "배터리 소모",
+      "부정",
+      "아틀라스"
+    ],
+    "confidence_score": 0.94,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-13T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0297",
+    "feedback_item_id": "FI-0297",
+    "product_id": "P-002",
+    "issue_category": "가격",
+    "issue_subcategory": "기타",
+    "sentiment": "neutral",
+    "summary": "아틀라스 탭 11 가격 관련 커뮤니티 글로, 값이 오르내려 살 시점을 재는 관찰이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "가격",
+      "중립",
+      "아틀라스"
+    ],
+    "confidence_score": 0.87,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-13T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0298",
+    "feedback_item_id": "FI-0298",
+    "product_id": "P-003",
+    "issue_category": "화질",
+    "issue_subcategory": "색 균일도",
+    "sentiment": "positive",
+    "summary": "클리어뷰 모니터 27 화면 색 균일도 관련 커뮤니티 글로, 화면 전체 색이 고르게 유지된다는 평가가 담겨 있다. 감성은 긍정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "색 균일도",
+      "화면 색 균일도",
+      "긍정",
+      "클리어뷰"
+    ],
+    "confidence_score": 0.89,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-14T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0299",
+    "feedback_item_id": "FI-0299",
+    "product_id": "P-003",
+    "issue_category": "화질",
+    "issue_subcategory": "색 균일도",
+    "sentiment": "negative",
+    "summary": "클리어뷰 모니터 27 화면 색 균일도 관련 커뮤니티 글로, 화면 일부만 색이 다르게 뜬다는 지적이 담겨 있다. 감성은 부정으로 분류했다.",
+    "keywords": [
+      "화질",
+      "색 균일도",
+      "화면 색 균일도",
+      "부정",
+      "클리어뷰"
+    ],
+    "confidence_score": 0.73,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-14T23:30:00+09:00"
+  },
+  {
+    "id": "FA-0300",
+    "feedback_item_id": "FI-0300",
+    "product_id": "P-003",
+    "issue_category": "기타",
+    "issue_subcategory": "기타",
+    "sentiment": "neutral",
+    "summary": "클리어뷰 모니터 27 사용성 관련 영상 게시물로, 쓰면서 알게 된 점을 정리한 기록이 담겨 있다. 감성은 중립으로 분류했다.",
+    "keywords": [
+      "기타",
+      "사용성",
+      "중립",
+      "클리어뷰"
+    ],
+    "confidence_score": 0.72,
+    "analysis_method": "seed",
+    "analyzed_at": "2026-08-13T23:30:00+09:00"
+  }
+]

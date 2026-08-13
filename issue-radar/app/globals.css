@@ -1,0 +1,399 @@
+:root {
+  --bg: #f5f6f8;
+  --panel: #ffffff;
+  --border: #dfe3e8;
+  --text: #1f2933;
+  --muted: #6b7684;
+  --accent: #3d5a80;
+
+  /* 감성 3색. 추세 그래프와 원문 목록이 같은 색을 쓴다 */
+  --negative: #d1495b;
+  --neutral: #8d99ae;
+  --positive: #2a9d8f;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Malgun Gothic', 'Apple SD Gothic Neo', system-ui, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.dashboard {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 24px 20px 64px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.dashboard-title {
+  margin: 0;
+  font-size: 22px;
+}
+
+.dashboard-subtitle {
+  margin: 4px 0 0;
+  color: var(--muted);
+}
+
+/* 데이터 파일을 읽지 못했을 때 대시보드 대신 보여 주는 전체 화면 오류 상태 */
+.data-error-page {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+}
+
+.data-error-panel {
+  width: min(680px, 100%);
+  padding: 28px;
+  border: 1px solid #e4a7af;
+  border-radius: 12px;
+  background: var(--panel);
+  box-shadow: 0 12px 32px rgb(31 41 51 / 8%);
+}
+
+.data-error-label {
+  margin: 0 0 6px;
+  color: var(--negative);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.data-error-title {
+  margin: 0;
+  font-size: 24px;
+}
+
+.data-error-message,
+.data-error-help {
+  margin: 10px 0 0;
+  color: var(--muted);
+}
+
+.data-error-file {
+  margin: 20px 0 0;
+  padding: 12px 14px;
+  border-radius: 8px;
+  background: #f8e9eb;
+}
+
+.data-error-file dt {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.data-error-file dd {
+  margin: 2px 0 0;
+  font-family: Consolas, 'Courier New', monospace;
+  font-weight: 700;
+  overflow-wrap: anywhere;
+}
+
+.data-error-details {
+  margin-top: 20px;
+}
+
+.data-error-details h2 {
+  margin: 0 0 8px;
+  font-size: 14px;
+}
+
+.data-error-details ul {
+  max-height: 280px;
+  margin: 0;
+  padding-left: 22px;
+  overflow-y: auto;
+}
+
+.data-error-details li + li {
+  margin-top: 6px;
+}
+
+/* 다섯 영역 공통 상자 */
+.panel {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 16px;
+}
+
+.panel-heading {
+  margin: 0 0 12px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--muted);
+  letter-spacing: 0.02em;
+}
+
+/* 뼈대 단계에서만 쓰는 빈 자리 표시. 내용이 붙으면 지운다 */
+.placeholder {
+  min-height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px dashed var(--border);
+  border-radius: 8px;
+  color: var(--muted);
+}
+
+/* 1. 필터 바 */
+.filter-bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.filter-group {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.filter-group + .filter-group {
+  margin-top: 10px;
+}
+
+.filter-group-label {
+  width: 40px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.filter-chip {
+  padding: 6px 14px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--panel);
+  color: var(--text);
+  font: inherit;
+  cursor: pointer;
+}
+
+.filter-chip:hover {
+  border-color: var(--accent);
+}
+
+/* 선택 표시는 색만으로 하지 않는다 — 테두리 굵기도 함께 바뀐다 */
+.filter-chip[aria-pressed='true'] {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+  font-weight: 600;
+}
+
+/* 2. 지표 카드 */
+.metric-cards {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.metric-card {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.metric-card-label {
+  margin: 0 0 6px;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.metric-card-value {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+/*
+ * Phase 5 급증 배지 자리. 이번 범위에서는 비워 두되 폭을 지금 잡아 둔다 —
+ * 나중에 +275.0% 같은 값이 들어올 때 레이아웃을 다시 짜지 않기 위해서다(SPEC 5.2).
+ */
+.surge-badge-slot {
+  min-width: 76px;
+  min-height: 24px;
+  flex: 0 0 auto;
+}
+
+/*
+ * 3~4. 차트 두 개는 나란히 두지 않고 위아래로 쌓는다 — SPEC 5장이 다섯 영역을
+ * "위에서 아래로"라고 정했고, LB-104의 완료 조건도 그 순서를 본다.
+ */
+.chart-body {
+  min-height: 280px;
+}
+
+/* 결과 0건 — 차트 자리를 그대로 차지해서 영역이 사라져 보이지 않게 한다 */
+.empty-state {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 120px;
+  margin: 0;
+  color: var(--muted);
+}
+
+.chart-body .empty-state {
+  min-height: 280px;
+}
+
+/* 5. 원문 목록 */
+.feedback-table-scroll {
+  overflow-x: auto;
+}
+
+.feedback-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.feedback-table th,
+.feedback-table td {
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--border);
+  text-align: left;
+  vertical-align: top;
+}
+
+.feedback-table th {
+  position: sticky;
+  top: 0;
+  background: var(--panel);
+  color: var(--muted);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.feedback-title {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.feedback-date {
+  white-space: nowrap;
+  color: var(--muted);
+}
+
+.feedback-summary {
+  min-width: 280px;
+  color: var(--muted);
+}
+
+/* 요약은 확정된 사실이 아니다(SPEC 5.6) — 표시와 원문 링크를 요약 위에 붙여 둔다 */
+.summary-notice {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 4px;
+}
+
+.summary-badge {
+  padding: 1px 7px;
+  border: 1px solid #c9a227;
+  border-radius: 999px;
+  background: #fdf6e0;
+  color: #7a5c00;
+  font-size: 11px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.summary-source-link {
+  color: var(--accent);
+  font-size: 11px;
+  white-space: nowrap;
+}
+
+.summary-text {
+  margin: 0;
+}
+
+/* 더 보기 — 지금 몇 건이 나와 있는지를 버튼 옆에 같이 둔다 */
+.feedback-list-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 14px;
+}
+
+.feedback-list-count {
+  margin: 0;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.show-more-button {
+  padding: 8px 18px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--panel);
+  color: var(--text);
+  font: inherit;
+  cursor: pointer;
+}
+
+.show-more-button:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+/* 감성은 색으로 구분하되 글자를 함께 남긴다 */
+.sentiment-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  white-space: nowrap;
+  font-weight: 600;
+}
+
+.sentiment-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+/* 출처 유형 뱃지 */
+.source-badge {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 1px 7px;
+  border-radius: 999px;
+  font-size: 11px;
+  white-space: nowrap;
+}
+
+.source-badge-news {
+  background: #e4ecf7;
+  color: #2c4a70;
+}
+
+.source-badge-community {
+  background: #eae6f2;
+  color: #4f3f70;
+}
+
+.source-badge-video {
+  background: #fdeae1;
+  color: #8a4322;
+}
+
+@media (max-width: 900px) {
+  .metric-cards {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}

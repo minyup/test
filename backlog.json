@@ -13,7 +13,7 @@
   "tasks": [
     {
       "id": "LB-101",
-      "status": "todo",
+      "status": "done",
       "priority": "핵심",
       "category": "환경",
       "title": "Next.js 최소 구성 세팅",
@@ -27,7 +27,7 @@
     },
     {
       "id": "LB-102",
-      "status": "todo",
+      "status": "done",
       "priority": "핵심",
       "category": "환경",
       "title": "TypeScript와 도메인 타입·열거형 정의",
@@ -41,7 +41,7 @@
     },
     {
       "id": "LB-103",
-      "status": "todo",
+      "status": "done",
       "priority": "핵심",
       "category": "환경",
       "title": "차트 라이브러리 확정과 설치",
@@ -55,7 +55,7 @@
     },
     {
       "id": "LB-104",
-      "status": "todo",
+      "status": "done",
       "priority": "핵심",
       "category": "화면",
       "title": "대시보드 다섯 영역 뼈대 배치",
@@ -69,7 +69,7 @@
     },
     {
       "id": "LB-105",
-      "status": "todo",
+      "status": "done",
       "priority": "핵심",
       "category": "저장",
       "title": "제품 3건 데이터 파일 작성",
@@ -83,7 +83,7 @@
     },
     {
       "id": "LB-106",
-      "status": "todo",
+      "status": "done",
       "priority": "핵심",
       "category": "저장",
       "title": "출처 5개 상수 정의",
@@ -97,7 +97,7 @@
     },
     {
       "id": "LB-107",
-      "status": "todo",
+      "status": "done",
       "priority": "핵심",
       "category": "저장",
       "title": "샘플 생성기 - 구간·제품·감성 배분표 코드화",
@@ -111,7 +111,7 @@
     },
     {
       "id": "LB-108",
-      "status": "todo",
+      "status": "done",
       "priority": "핵심",
       "category": "저장",
       "title": "샘플 생성기 - 날짜 배분과 급증 구간 심기",
@@ -125,7 +125,7 @@
     },
     {
       "id": "LB-109",
-      "status": "todo",
+      "status": "done",
       "priority": "핵심",
       "category": "저장",
       "title": "샘플 생성기 - 카테고리·세부이슈 배분",
@@ -139,7 +139,7 @@
     },
     {
       "id": "LB-110",
-      "status": "todo",
+      "status": "done",
       "priority": "핵심",
       "category": "저장",
       "title": "샘플 생성기 - 출처 유형별 문장 템플릿",
@@ -153,7 +153,7 @@
     },
     {
       "id": "LB-111",
-      "status": "todo",
+      "status": "done",
       "priority": "핵심",
       "category": "저장",
       "title": "원문 300건 파일 생성",
@@ -167,7 +167,7 @@
     },
     {
       "id": "LB-112",
-      "status": "todo",
+      "status": "done",
       "priority": "핵심",
       "category": "저장",
       "title": "분석 300건 파일 생성",
@@ -181,7 +181,7 @@
     },
     {
       "id": "LB-113",
-      "status": "todo",
+      "status": "done",
       "priority": "핵심",
       "category": "저장",
       "title": "로더 loadProducts·loadFeedback 구현",
@@ -195,7 +195,7 @@
     },
     {
       "id": "LB-114",
-      "status": "todo",
+      "status": "done",
       "priority": "핵심",
       "category": "저장",
       "title": "기간·제품 필터 함수 구현",
@@ -209,7 +209,7 @@
     },
     {
       "id": "LB-115",
-      "status": "todo",
+      "status": "done",
       "priority": "핵심",
       "category": "저장",
       "title": "지표 집계 countTotal·negativeRatio 구현",
@@ -223,7 +223,7 @@
     },
     {
       "id": "LB-116",
-      "status": "todo",
+      "status": "done",
       "priority": "핵심",
       "category": "저장",
       "title": "추세 집계 trendBySentiment 구현",
@@ -237,7 +237,7 @@
     },
     {
       "id": "LB-117",
-      "status": "todo",
+      "status": "done",
       "priority": "핵심",
       "category": "저장",
       "title": "분포 집계 distributionByCategory 구현",
@@ -251,7 +251,7 @@
     },
     {
       "id": "LB-118",
-      "status": "todo",
+      "status": "done",
       "priority": "핵심",
       "category": "화면",
       "title": "필터 바 붙이기",
@@ -265,7 +265,7 @@
     },
     {
       "id": "LB-119",
-      "status": "todo",
+      "status": "done",
       "priority": "핵심",
       "category": "화면",
       "title": "지표 카드 2개 붙이기",
@@ -279,7 +279,7 @@
     },
     {
       "id": "LB-120",
-      "status": "todo",
+      "status": "done",
       "priority": "핵심",
       "category": "화면",
       "title": "날짜별 언급량·감성 추세 그래프 붙이기",
@@ -293,7 +293,7 @@
     },
     {
       "id": "LB-121",
-      "status": "todo",
+      "status": "done",
       "priority": "핵심",
       "category": "화면",
       "title": "카테고리별 분포 차트 붙이기",
@@ -307,7 +307,7 @@
     },
     {
       "id": "LB-122",
-      "status": "todo",
+      "status": "done",
       "priority": "핵심",
       "category": "화면",
       "title": "원문 목록 붙이기",
@@ -321,7 +321,7 @@
     },
     {
       "id": "LB-123",
-      "status": "todo",
+      "status": "done",
       "priority": "핵심",
       "category": "화면",
       "title": "원문 목록 더 보기",
@@ -335,7 +335,7 @@
     },
     {
       "id": "LB-124",
-      "status": "todo",
+      "status": "done",
       "priority": "검증",
       "category": "화면",
       "title": "요약에 참고용 분석 결과 표시 붙이기",
@@ -349,7 +349,7 @@
     },
     {
       "id": "LB-125",
-      "status": "todo",
+      "status": "done",
       "priority": "검증",
       "category": "화면",
       "title": "결과 0건 빈 상태 처리",
@@ -363,7 +363,7 @@
     },
     {
       "id": "LB-126",
-      "status": "todo",
+      "status": "done",
       "priority": "검증",
       "category": "검증",
       "title": "데이터 스키마 검증기",
@@ -377,7 +377,7 @@
     },
     {
       "id": "LB-127",
-      "status": "todo",
+      "status": "done",
       "priority": "검증",
       "category": "화면",
       "title": "데이터 오류 화면 처리",
@@ -391,7 +391,7 @@
     },
     {
       "id": "LB-128",
-      "status": "todo",
+      "status": "done",
       "priority": "검증",
       "category": "검증",
       "title": "테스트 러너 세팅",
@@ -405,7 +405,7 @@
     },
     {
       "id": "LB-129",
-      "status": "todo",
+      "status": "done",
       "priority": "검증",
       "category": "검증",
       "title": "Phase 1 데이터 무결성 테스트",
@@ -419,7 +419,7 @@
     },
     {
       "id": "LB-130",
-      "status": "todo",
+      "status": "done",
       "priority": "검증",
       "category": "검증",
       "title": "Phase 2 지표 기대값 테스트",
@@ -433,7 +433,7 @@
     },
     {
       "id": "LB-131",
-      "status": "todo",
+      "status": "done",
       "priority": "검증",
       "category": "검증",
       "title": "Phase 4 필터 8조합 테스트",
@@ -447,7 +447,7 @@
     },
     {
       "id": "LB-132",
-      "status": "todo",
+      "status": "done",
       "priority": "검증",
       "category": "검증",
       "title": "Phase 3 브라우저 렌더 확인",
@@ -461,7 +461,7 @@
     },
     {
       "id": "LB-133",
-      "status": "todo",
+      "status": "done",
       "priority": "검증",
       "category": "검증",
       "title": "키 없이 도는지 확인",
@@ -475,7 +475,7 @@
     },
     {
       "id": "LB-134",
-      "status": "todo",
+      "status": "done",
       "priority": "검증",
       "category": "검증",
       "title": "금지 규칙 스캔",
@@ -489,7 +489,7 @@
     },
     {
       "id": "LB-135",
-      "status": "todo",
+      "status": "done",
       "priority": "검증",
       "category": "검증",
       "title": "사람 눈으로 볼 세 가지 확인",
