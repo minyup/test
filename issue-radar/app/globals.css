@@ -205,6 +205,36 @@ body {
   color: var(--muted);
 }
 
+/* 더 보기 — 지금 몇 건이 나와 있는지를 버튼 옆에 같이 둔다 */
+.feedback-list-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 14px;
+}
+
+.feedback-list-count {
+  margin: 0;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.show-more-button {
+  padding: 8px 18px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--panel);
+  color: var(--text);
+  font: inherit;
+  cursor: pointer;
+}
+
+.show-more-button:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
 /* 감성은 색으로 구분하되 글자를 함께 남긴다 */
 .sentiment-tag {
   display: inline-flex;

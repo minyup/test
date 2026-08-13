@@ -39,6 +39,19 @@ export function Dashboard({
 }) {
   const [filter, setFilter] = useState<FilterState>({ period: '30d', productId: 'all' });
 
+  // 원문 목록이 지금 몇 건까지 나와 있는지. 더 보기를 누를 때마다 20건씩 늘어난다
+  const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
+
+  /**
+   * 필터를 바꿀 때는 반드시 이 함수를 쓴다.
+   * 더 보기로 늘려 둔 개수를 20건으로 되돌리지 않으면 이전 필터의 개수를 물고 있어서
+   * "필터를 걸면 목록 건수도 함께 바뀐다"(SPEC 5.5)가 깨진다.
+   */
+  const changeFilter = (patch: Partial<FilterState>) => {
+    setFilter((current) => ({ ...current, ...patch }));
+    setVisibleCount(PAGE_SIZE);
+  };
+
   // is_active가 false인 제품은 목록에 아예 나오지 않는다(SPEC 5.1)
   const activeProducts = products.filter((product) => product.is_active);
 
@@ -70,7 +83,7 @@ export function Dashboard({
               type="button"
               className="filter-chip"
               aria-pressed={filter.period === period}
-              onClick={() => setFilter((current) => ({ ...current, period }))}
+              onClick={() => changeFilter({ period })}
             >
               {PERIOD_LABEL[period]}
             </button>
@@ -83,7 +96,7 @@ export function Dashboard({
             type="button"
             className="filter-chip"
             aria-pressed={filter.productId === 'all'}
-            onClick={() => setFilter((current) => ({ ...current, productId: 'all' }))}
+            onClick={() => changeFilter({ productId: 'all' })}
           >
             전체
           </button>
@@ -93,7 +106,7 @@ export function Dashboard({
               type="button"
               className="filter-chip"
               aria-pressed={filter.productId === product.id}
-              onClick={() => setFilter((current) => ({ ...current, productId: product.id }))}
+              onClick={() => changeFilter({ productId: product.id })}
             >
               {product.name}
             </button>
@@ -147,7 +160,12 @@ export function Dashboard({
         <h2 className="panel-heading" id="feedback-list-heading">
           원문 목록
         </h2>
-        <FeedbackList records={filtered} products={products} limit={PAGE_SIZE} />
+        <FeedbackList
+          records={filtered}
+          products={products}
+          limit={visibleCount}
+          onShowMore={() => setVisibleCount((current) => current + PAGE_SIZE)}
+        />
       </section>
     </>
   );

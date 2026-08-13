@@ -321,7 +321,7 @@
     },
     {
       "id": "LB-123",
-      "status": "todo",
+      "status": "done",
       "priority": "핵심",
       "category": "화면",
       "title": "원문 목록 더 보기",
