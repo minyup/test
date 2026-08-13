@@ -447,7 +447,7 @@
     },
     {
       "id": "LB-132",
-      "status": "todo",
+      "status": "done",
       "priority": "검증",
       "category": "검증",
       "title": "Phase 3 브라우저 렌더 확인",

@@ -34,6 +34,7 @@
 | `SPEC.md` | 이번에 만들 것의 기준. 건수·비율·날짜 같은 숫자는 이 문서가 정본이다 |
 | `backlog.json` | 작업 목록과 상태의 기준. `LB-101`~`LB-140` 40건 |
 | `tools/backlog.mjs` | `backlog.json`을 읽고 쓰는 유일한 통로 |
+| `docs/verification/` | 브라우저로 눈으로 확인한 검증의 기록과 캡처. Phase별로 파일 하나를 둔다 |
 | `issue-radar/` | 앱 루트. `SPEC.md`의 `data/`·`app/` 경로는 이 폴더 기준으로 읽는다 |
 | `issue-radar/data/products.json` | 모니터링 대상 제품의 기준. 제품 추가는 코드가 아니라 이 파일을 고쳐서 한다 |
 | `issue-radar/data/feedback_items.json` | 원문 300건의 기준 |
