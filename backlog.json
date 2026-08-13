@@ -461,7 +461,7 @@
     },
     {
       "id": "LB-133",
-      "status": "todo",
+      "status": "done",
       "priority": "검증",
       "category": "검증",
       "title": "키 없이 도는지 확인",
