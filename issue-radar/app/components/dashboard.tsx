@@ -3,10 +3,10 @@
 import { useMemo, useState } from 'react';
 
 import { PERIOD_LABEL, applyFilter, periodRange } from '@/lib/filter';
-import { countTotal, negativeRatio, trendBySentiment } from '@/lib/metrics';
+import { countTotal, distributionByCategory, negativeRatio, trendBySentiment } from '@/lib/metrics';
 import type { FeedbackRecord, FilterState, Period, Product } from '@/lib/types';
 
-import { ChartSmokeTest } from './chart-smoke-test';
+import { DistributionChart } from './distribution-chart';
 import { TrendChart } from './trend-chart';
 
 const PERIODS: Period[] = ['today', '7d', '30d'];
@@ -46,6 +46,9 @@ export function Dashboard({
     const { from, to } = periodRange(filter.period);
     return trendBySentiment(filtered, from, to);
   }, [filtered, filter.period]);
+
+  // 어떤 필터에서도 길이는 항상 7이다
+  const distribution = useMemo(() => distributionByCategory(filtered), [filtered]);
 
   return (
     <>
@@ -130,8 +133,9 @@ export function Dashboard({
         <h2 className="panel-heading" id="distribution-heading">
           카테고리별 분포
         </h2>
-        {/* LB-103 시험용 파이. LB-121에서 진짜 분포 차트로 바뀐다 */}
-        <ChartSmokeTest />
+        <div className="chart-body">
+          <DistributionChart counts={distribution} />
+        </div>
       </section>
 
       {/* 5. 원문 목록 — 원문 추적성이 이 영역의 존재 이유다 */}

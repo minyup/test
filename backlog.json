@@ -293,7 +293,7 @@
     },
     {
       "id": "LB-121",
-      "status": "todo",
+      "status": "done",
       "priority": "핵심",
       "category": "화면",
       "title": "카테고리별 분포 차트 붙이기",
