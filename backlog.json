@@ -433,7 +433,7 @@
     },
     {
       "id": "LB-131",
-      "status": "todo",
+      "status": "done",
       "priority": "검증",
       "category": "검증",
       "title": "Phase 4 필터 8조합 테스트",
