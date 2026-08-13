@@ -41,7 +41,7 @@
     },
     {
       "id": "LB-103",
-      "status": "in_progress",
+      "status": "done",
       "priority": "핵심",
       "category": "환경",
       "title": "차트 라이브러리 확정과 설치",
