@@ -111,7 +111,7 @@
     },
     {
       "id": "LB-108",
-      "status": "todo",
+      "status": "done",
       "priority": "핵심",
       "category": "저장",
       "title": "샘플 생성기 - 날짜 배분과 급증 구간 심기",
