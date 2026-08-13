@@ -391,7 +391,7 @@
     },
     {
       "id": "LB-128",
-      "status": "todo",
+      "status": "done",
       "priority": "검증",
       "category": "검증",
       "title": "테스트 러너 세팅",
