@@ -167,7 +167,7 @@
     },
     {
       "id": "LB-112",
-      "status": "todo",
+      "status": "done",
       "priority": "핵심",
       "category": "저장",
       "title": "분석 300건 파일 생성",

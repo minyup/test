@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "seed": "node scripts/seed/items.ts && node scripts/seed/analyses.ts"
   },
   "dependencies": {
     "next": "^16.3.0",
