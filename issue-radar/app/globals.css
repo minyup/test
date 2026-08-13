@@ -162,20 +162,87 @@ body {
   min-height: 280px;
 }
 
-/* LB-113 임시 확인용. 진짜 원문 목록이 붙으면 지운다 */
-.loader-probe {
-  display: grid;
-  grid-template-columns: 130px minmax(0, 1fr);
-  gap: 6px 12px;
-  margin: 0;
+/* 5. 원문 목록 */
+.feedback-table-scroll {
+  overflow-x: auto;
 }
 
-.loader-probe dt {
+.feedback-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.feedback-table th,
+.feedback-table td {
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--border);
+  text-align: left;
+  vertical-align: top;
+}
+
+.feedback-table th {
+  position: sticky;
+  top: 0;
+  background: var(--panel);
+  color: var(--muted);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.feedback-title {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.feedback-date {
+  white-space: nowrap;
   color: var(--muted);
 }
 
-.loader-probe dd {
-  margin: 0;
+.feedback-summary {
+  min-width: 280px;
+  color: var(--muted);
+}
+
+/* 감성은 색으로 구분하되 글자를 함께 남긴다 */
+.sentiment-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  white-space: nowrap;
+  font-weight: 600;
+}
+
+.sentiment-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+/* 출처 유형 뱃지 */
+.source-badge {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 1px 7px;
+  border-radius: 999px;
+  font-size: 11px;
+  white-space: nowrap;
+}
+
+.source-badge-news {
+  background: #e4ecf7;
+  color: #2c4a70;
+}
+
+.source-badge-community {
+  background: #eae6f2;
+  color: #4f3f70;
+}
+
+.source-badge-video {
+  background: #fdeae1;
+  color: #8a4322;
 }
 
 @media (max-width: 900px) {

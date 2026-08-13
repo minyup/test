@@ -7,7 +7,11 @@ import { countTotal, distributionByCategory, negativeRatio, trendBySentiment } f
 import type { FeedbackRecord, FilterState, Period, Product } from '@/lib/types';
 
 import { DistributionChart } from './distribution-chart';
+import { FeedbackList } from './feedback-list';
 import { TrendChart } from './trend-chart';
+
+/** 원문 목록은 한 번에 20건씩 보여 준다(SPEC 5.5) */
+const PAGE_SIZE = 20;
 
 const PERIODS: Period[] = ['today', '7d', '30d'];
 
@@ -143,17 +147,7 @@ export function Dashboard({
         <h2 className="panel-heading" id="feedback-list-heading">
           원문 목록
         </h2>
-        {/* LB-113·118 임시 확인용. LB-122에서 진짜 목록으로 바뀐다 */}
-        <dl className="loader-probe">
-          <dt>제품</dt>
-          <dd>{products.length}건</dd>
-          <dt>원문</dt>
-          <dd>{records.length}건</dd>
-          <dt>지금 선택한 필터</dt>
-          <dd>
-            {PERIOD_LABEL[filter.period]} · {filter.productId}
-          </dd>
-        </dl>
+        <FeedbackList records={filtered} products={products} limit={PAGE_SIZE} />
       </section>
     </>
   );
