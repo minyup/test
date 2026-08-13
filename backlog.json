@@ -489,7 +489,7 @@
     },
     {
       "id": "LB-135",
-      "status": "todo",
+      "status": "done",
       "priority": "검증",
       "category": "검증",
       "title": "사람 눈으로 볼 세 가지 확인",
