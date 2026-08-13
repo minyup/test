@@ -223,7 +223,7 @@
     },
     {
       "id": "LB-116",
-      "status": "todo",
+      "status": "done",
       "priority": "핵심",
       "category": "저장",
       "title": "추세 집계 trendBySentiment 구현",

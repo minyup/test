@@ -1,4 +1,6 @@
+import { applyFilter, periodRange } from '@/lib/filter';
 import { loadFeedback, loadProducts } from '@/lib/loader';
+import { trendBySentiment } from '@/lib/metrics';
 
 import { ChartSmokeTest } from './components/chart-smoke-test';
 
@@ -10,6 +12,8 @@ export default function DashboardPage() {
   const products = loadProducts();
   const feedback = loadFeedback();
   const sample = feedback[0];
+  const range = periodRange('30d');
+  const trend = trendBySentiment(applyFilter(feedback, { period: '30d', productId: 'all' }), range.from, range.to);
 
   return (
     <main className="dashboard">
@@ -77,6 +81,10 @@ export default function DashboardPage() {
           <dd>{products.length}건</dd>
           <dt>원문</dt>
           <dd>{feedback.length}건</dd>
+          <dt>추세 눈금</dt>
+          <dd>
+            {trend.length}개 ({trend[0].date} ~ {trend[trend.length - 1].date})
+          </dd>
           <dt>표본 한 건</dt>
           <dd>
             {sample.id} · {sample.title}
