@@ -251,7 +251,7 @@
     },
     {
       "id": "LB-118",
-      "status": "todo",
+      "status": "done",
       "priority": "핵심",
       "category": "화면",
       "title": "필터 바 붙이기",
