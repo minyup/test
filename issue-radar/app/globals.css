@@ -162,6 +162,20 @@ body {
   min-height: 280px;
 }
 
+/* 결과 0건 — 차트 자리를 그대로 차지해서 영역이 사라져 보이지 않게 한다 */
+.empty-state {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 120px;
+  margin: 0;
+  color: var(--muted);
+}
+
+.chart-body .empty-state {
+  min-height: 280px;
+}
+
 /* 5. 원문 목록 */
 .feedback-table-scroll {
   overflow-x: auto;

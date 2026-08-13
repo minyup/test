@@ -25,6 +25,20 @@ function formatRatio(ratio: number | null): string {
 }
 
 /**
+ * 결과가 0건일 때 차트 자리에 들어가는 글(SPEC 5.7).
+ *
+ * 눈금과 범례만 남은 빈 차트를 그리지 않는다 — 데이터가 없는 것인지
+ * 그리다 만 것인지 보는 사람이 구별할 수 없기 때문이다.
+ */
+function EmptyState() {
+  return (
+    <p className="empty-state" role="status">
+      이 조건에 해당하는 데이터가 없습니다
+    </p>
+  );
+}
+
+/**
  * 대시보드 전체가 이 컴포넌트 하나의 필터 상태를 본다(SPEC 5.1).
  * 영역마다 상태를 따로 두면 지표 카드와 원문 목록이 서로 다른 기간을 보게 된다.
  *
@@ -66,6 +80,9 @@ export function Dashboard({
 
   // 어떤 필터에서도 길이는 항상 7이다
   const distribution = useMemo(() => distributionByCategory(filtered), [filtered]);
+
+  // 0건이면 차트 대신 안내 글을 넣는다(SPEC 5.7)
+  const isEmpty = filtered.length === 0;
 
   return (
     <>
@@ -140,9 +157,7 @@ export function Dashboard({
         <h2 className="panel-heading" id="trend-heading">
           날짜별 언급량·감성 추세
         </h2>
-        <div className="chart-body">
-          <TrendChart points={trend} />
-        </div>
+        <div className="chart-body">{isEmpty ? <EmptyState /> : <TrendChart points={trend} />}</div>
       </section>
 
       {/* 4. 카테고리별 분포 차트 */}
@@ -151,7 +166,7 @@ export function Dashboard({
           카테고리별 분포
         </h2>
         <div className="chart-body">
-          <DistributionChart counts={distribution} />
+          {isEmpty ? <EmptyState /> : <DistributionChart counts={distribution} />}
         </div>
       </section>
 
@@ -160,12 +175,16 @@ export function Dashboard({
         <h2 className="panel-heading" id="feedback-list-heading">
           원문 목록
         </h2>
-        <FeedbackList
-          records={filtered}
-          products={products}
-          limit={visibleCount}
-          onShowMore={() => setVisibleCount((current) => current + PAGE_SIZE)}
-        />
+        {isEmpty ? (
+          <EmptyState />
+        ) : (
+          <FeedbackList
+            records={filtered}
+            products={products}
+            limit={visibleCount}
+            onShowMore={() => setVisibleCount((current) => current + PAGE_SIZE)}
+          />
+        )}
       </section>
     </>
   );

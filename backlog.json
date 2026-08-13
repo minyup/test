@@ -349,7 +349,7 @@
     },
     {
       "id": "LB-125",
-      "status": "todo",
+      "status": "done",
       "priority": "검증",
       "category": "화면",
       "title": "결과 0건 빈 상태 처리",
