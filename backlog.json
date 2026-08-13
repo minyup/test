@@ -83,7 +83,7 @@
     },
     {
       "id": "LB-106",
-      "status": "todo",
+      "status": "done",
       "priority": "핵심",
       "category": "저장",
       "title": "출처 5개 상수 정의",
