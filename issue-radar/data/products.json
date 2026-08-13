@@ -1,0 +1,38 @@
+[
+  {
+    "id": "P-001",
+    "category": "스마트폰",
+    "brand": "노바텍",
+    "name": "루멘 폰 X",
+    "aliases": ["루멘폰X", "루멘 X", "Lumen Phone X"],
+    "search_keywords": ["루멘 폰", "루멘폰", "루멘 X", "노바텍 스마트폰"],
+    "exclude_keywords": ["루멘 워치", "루멘 버즈"],
+    "is_active": true,
+    "created_at": "2026-07-01T09:00:00+09:00",
+    "updated_at": "2026-07-01T09:00:00+09:00"
+  },
+  {
+    "id": "P-002",
+    "category": "태블릿",
+    "brand": "노바텍",
+    "name": "아틀라스 탭 11",
+    "aliases": ["아틀라스탭11", "아틀라스 11", "Atlas Tab 11"],
+    "search_keywords": ["아틀라스 탭", "아틀라스탭", "노바텍 태블릿"],
+    "exclude_keywords": ["아틀라스 탭 9", "아틀라스 북"],
+    "is_active": true,
+    "created_at": "2026-07-01T09:00:00+09:00",
+    "updated_at": "2026-07-01T09:00:00+09:00"
+  },
+  {
+    "id": "P-003",
+    "category": "모니터",
+    "brand": "오리온디스플레이",
+    "name": "클리어뷰 모니터 27",
+    "aliases": ["클리어뷰27", "클리어뷰 27인치", "ClearView Monitor 27"],
+    "search_keywords": ["클리어뷰 모니터", "클리어뷰27", "오리온디스플레이 모니터"],
+    "exclude_keywords": ["클리어뷰 모니터 32", "클리어뷰 TV"],
+    "is_active": true,
+    "created_at": "2026-07-01T09:00:00+09:00",
+    "updated_at": "2026-07-01T09:00:00+09:00"
+  }
+]

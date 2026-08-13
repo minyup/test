@@ -69,7 +69,7 @@
     },
     {
       "id": "LB-105",
-      "status": "todo",
+      "status": "done",
       "priority": "핵심",
       "category": "저장",
       "title": "제품 3건 데이터 파일 작성",
