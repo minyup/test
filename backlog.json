@@ -139,7 +139,7 @@
     },
     {
       "id": "LB-110",
-      "status": "todo",
+      "status": "done",
       "priority": "핵심",
       "category": "저장",
       "title": "샘플 생성기 - 출처 유형별 문장 템플릿",
