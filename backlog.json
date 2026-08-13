@@ -405,7 +405,7 @@
     },
     {
       "id": "LB-129",
-      "status": "todo",
+      "status": "done",
       "priority": "검증",
       "category": "검증",
       "title": "Phase 1 데이터 무결성 테스트",
