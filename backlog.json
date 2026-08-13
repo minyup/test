@@ -335,7 +335,7 @@
     },
     {
       "id": "LB-124",
-      "status": "todo",
+      "status": "done",
       "priority": "검증",
       "category": "화면",
       "title": "요약에 참고용 분석 결과 표시 붙이기",

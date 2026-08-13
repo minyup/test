@@ -205,6 +205,35 @@ body {
   color: var(--muted);
 }
 
+/* 요약은 확정된 사실이 아니다(SPEC 5.6) — 표시와 원문 링크를 요약 위에 붙여 둔다 */
+.summary-notice {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 4px;
+}
+
+.summary-badge {
+  padding: 1px 7px;
+  border: 1px solid #c9a227;
+  border-radius: 999px;
+  background: #fdf6e0;
+  color: #7a5c00;
+  font-size: 11px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.summary-source-link {
+  color: var(--accent);
+  font-size: 11px;
+  white-space: nowrap;
+}
+
+.summary-text {
+  margin: 0;
+}
+
 /* 더 보기 — 지금 몇 건이 나와 있는지를 버튼 옆에 같이 둔다 */
 .feedback-list-footer {
   display: flex;

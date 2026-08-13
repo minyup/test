@@ -87,7 +87,25 @@ export function FeedbackList({
                     ) : null}
                   </td>
                   <td className="feedback-date">{record.published_at.slice(0, 10)}</td>
-                  <td className="feedback-summary">{record.analysis.summary}</td>
+                  <td className="feedback-summary">
+                    {/*
+                     * summary는 사람이 쓴 사실 기술이 아니라 분석 결과다(SPEC 5.6).
+                     * 표시와 원문 링크를 요약 바로 옆에 함께 둔다 — 읽는 사람이
+                     * 근거를 확인하려고 행 안에서 눈을 옮길 필요가 없어야 한다.
+                     */}
+                    <p className="summary-notice">
+                      <span className="summary-badge">참고용 분석 결과</span>
+                      <a
+                        className="summary-source-link"
+                        href={record.original_url}
+                        target="_blank"
+                        rel="noreferrer noopener"
+                      >
+                        원문 확인
+                      </a>
+                    </p>
+                    <p className="summary-text">{record.analysis.summary}</p>
+                  </td>
                 </tr>
               );
             })}
