@@ -279,7 +279,7 @@
     },
     {
       "id": "LB-120",
-      "status": "todo",
+      "status": "done",
       "priority": "핵심",
       "category": "화면",
       "title": "날짜별 언급량·감성 추세 그래프 붙이기",

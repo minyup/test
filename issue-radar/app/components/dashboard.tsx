@@ -2,11 +2,12 @@
 
 import { useMemo, useState } from 'react';
 
-import { PERIOD_LABEL, applyFilter } from '@/lib/filter';
-import { countTotal, negativeRatio } from '@/lib/metrics';
+import { PERIOD_LABEL, applyFilter, periodRange } from '@/lib/filter';
+import { countTotal, negativeRatio, trendBySentiment } from '@/lib/metrics';
 import type { FeedbackRecord, FilterState, Period, Product } from '@/lib/types';
 
 import { ChartSmokeTest } from './chart-smoke-test';
+import { TrendChart } from './trend-chart';
 
 const PERIODS: Period[] = ['today', '7d', '30d'];
 
@@ -39,6 +40,12 @@ export function Dashboard({
 
   // 다섯 영역이 전부 이 결과 하나를 본다. 영역마다 다시 거르지 않는다
   const filtered = useMemo(() => applyFilter(records, filter), [records, filter]);
+
+  // 눈금 수는 기간이 정한다 — 오늘 1 · 7일 7 · 30일 30
+  const trend = useMemo(() => {
+    const { from, to } = periodRange(filter.period);
+    return trendBySentiment(filtered, from, to);
+  }, [filtered, filter.period]);
 
   return (
     <>
@@ -114,8 +121,7 @@ export function Dashboard({
           날짜별 언급량·감성 추세
         </h2>
         <div className="chart-body">
-          {/* LB-103 시험용. LB-120에서 진짜 차트로 바뀐다 */}
-          <ChartSmokeTest />
+          <TrendChart points={trend} />
         </div>
       </section>
 
@@ -124,7 +130,8 @@ export function Dashboard({
         <h2 className="panel-heading" id="distribution-heading">
           카테고리별 분포
         </h2>
-        <div className="placeholder chart-body">조각 7개 (LB-121)</div>
+        {/* LB-103 시험용 파이. LB-121에서 진짜 분포 차트로 바뀐다 */}
+        <ChartSmokeTest />
       </section>
 
       {/* 5. 원문 목록 — 원문 추적성이 이 영역의 존재 이유다 */}
