@@ -341,6 +341,44 @@ const BODY: Record<SourceType, Record<Sentiment, string[]>> = {
   },
 };
 
+/**
+ * 본문 끝에 붙이는 사용 조건 한 문장.
+ *
+ * 제목·본문·증상은 모두 같은 variant로 골라 함께 움직이기 때문에, 조합 수가 금세
+ * 바닥나 본문이 글자 하나까지 똑같은 레코드가 생긴다. 그러면 중복 판별용
+ * `content_hash`가 실제로 겹쳐 Phase 7의 중복 처리가 헛돌게 된다.
+ * 그래서 이 문장만 다른 주기로 골라 조합 수를 늘린다.
+ */
+const DETAIL: Record<SourceType, string[]> = {
+  news: [
+    '제보자들의 사용 기간은 2주에서 3개월 사이였다.',
+    '같은 지적은 다른 커뮤니티에서도 확인됐다.',
+    '표본이 많지 않아 일반화하기는 이르다.',
+    '제조사 측 공식 답변은 아직 나오지 않았다.',
+    '유통사는 개별 문의로 확인해 달라고 밝혔다.',
+    '비슷한 사례가 지난달에도 보고된 바 있다.',
+    '취재 과정에서 확인한 제보는 모두 익명 처리했다.',
+  ],
+  community: [
+    '참고로 구매한 지 3주 정도 됐어요.',
+    '설정은 거의 기본값 그대로 쓰고 있어요.',
+    '펌웨어는 최신으로 올린 상태입니다.',
+    '주로 실내에서만 쓰는 편이에요.',
+    '전에 쓰던 기기랑 비교해서 적은 거예요.',
+    '혹시 몰라 초기화도 한 번 해 봤습니다.',
+    '사진은 따로 올리지 않았는데 필요하면 말씀해 주세요.',
+  ],
+  video: [
+    '측정은 같은 조명 아래에서 진행했습니다.',
+    '비교 대상은 직전 세대 모델입니다.',
+    '촬영 설정은 고정값으로 두었습니다.',
+    '샘플은 두 대로 나눠 확인했습니다.',
+    '자세한 수치는 고정 댓글에 정리했습니다.',
+    '재현 조건은 영상 마지막에 정리했습니다.',
+    '협찬 없이 직접 구매해 촬영했습니다.',
+  ],
+};
+
 /** 본문이 60자에 못 미칠 때 뒤에 붙이는 문장. 그 출처의 말투를 유지한다 */
 const FILLER: Record<SourceType, string[]> = {
   news: [
@@ -385,6 +423,12 @@ export function buildText(input: TextInput): GeneratedText {
   }
 
   let excerpt = fillTemplate(pick(BODY[input.sourceType][input.sentiment], input.variant), values);
+  // 본문 틀과 다른 주기로 골라 같은 문장이 통째로 겹치는 것을 막는다.
+  // 7개를 3칸씩 건너뛰며 고른다 — 본문 틀(2개)·증상(최대 3개)의 주기와 서로소라
+  // 세 가지가 같이 되돌아오기까지 42건이 걸린다.
+  const details = DETAIL[input.sourceType];
+  excerpt = `${excerpt} ${details[(input.variant * 3) % details.length]}`;
+
   let fillerIndex = 0;
   while (excerpt.length < EXCERPT_MIN && fillerIndex < FILLER[input.sourceType].length) {
     excerpt = `${excerpt} ${FILLER[input.sourceType][fillerIndex]}`;
