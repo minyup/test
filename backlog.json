@@ -13,7 +13,7 @@
   "tasks": [
     {
       "id": "LB-101",
-      "status": "todo",
+      "status": "done",
       "priority": "핵심",
       "category": "환경",
       "title": "Next.js 최소 구성 세팅",
@@ -27,7 +27,7 @@
     },
     {
       "id": "LB-102",
-      "status": "todo",
+      "status": "done",
       "priority": "핵심",
       "category": "환경",
       "title": "TypeScript와 도메인 타입·열거형 정의",
@@ -41,7 +41,7 @@
     },
     {
       "id": "LB-103",
-      "status": "todo",
+      "status": "in_progress",
       "priority": "핵심",
       "category": "환경",
       "title": "차트 라이브러리 확정과 설치",

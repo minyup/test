@@ -47,6 +47,7 @@
 
 - `backlog.json`을 편집기로 열어 고치지 않는다. 상태 변경은 `node tools/backlog.mjs set`으로만 한다.
 - `backlog.json`을 고친 뒤에는 `node tools/backlog.mjs validate`가 `VALID`를 내는 것을 확인한다.
+- 작업 하나를 `done`으로 바꿀 때마다 커밋을 하나 남긴다. 한 커밋에 작업 하나만 담고, 제목은 `feat: LB-1xx 작업 제목` 형식으로 쓰며, 상태가 바뀐 `backlog.json`도 같은 커밋에 넣는다. 여러 작업을 몰아서 한 번에 커밋하지 않는다 — 검증이 깨졌을 때 어느 작업까지 되돌릴지가 커밋 경계로 드러나야 한다.
 - 기록은 추가만 한다. `data/*.json`의 기존 레코드를 덮어쓰거나 지우지 않고, 새 레코드를 뒤에 붙인다.
 - 검증이 실패한 작업은 `blocked`로 바꾸고, 그 작업의 `note`에 무엇을 어떻게 조치할지 한 줄을 남긴다. 조치 메모 없이 다음 작업으로 넘어가지 않는다.
 - 외부 DB를 붙이지 않는다. 저장소는 `data/` 안의 JSON 파일이고, SQLite·PostgreSQL·ORM 패키지를 설치하지 않는다.
